@@ -1,4 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cyberpunk_2077_logo.svg/2560px-Cyberpunk_2077_logo.svg.png ":no-zoom")
+![](./assets/images/logo.png ":no-zoom")
 <p align="center" style="font-weight:bold;">Scripting Engine for Cyberpunk 2077</p>
 <p align="center" style="color:red;">This mod is under heavy development and reconstruction, so use at your own risk.<br>We are not responsible for save corruption.</p>
 
