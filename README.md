@@ -16,9 +16,9 @@ See the [Quick start](quickstart.md) guide for more details.
 - Organized collection of scripts called **Datapacks**.
 - No **hard-coded** quests.
 
-# Share place
+# Datapack Hub
 
-Check out our datapacks [Share place](https://cyberscript77.github.io/datapack/) to fetch the latest updates and new datapacks.
+Check out our datapacks [Datapack Hub](https://cyberscript77.github.io/datapack/) to fetch the latest updates and new datapacks.
 
 # Release notes
 
