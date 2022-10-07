@@ -26,9 +26,7 @@ We assume here that you already [create an datapack folder](create-an-datapack-f
 
 First : in your datapack folder, create a folder named "dialog". It will contain every dialog script of your datapack. Logic !
 
-
 In this folder, create a JSON text file, like for example : amazingChoice.json
-
 
 Open it with your favorite text editor.
 

@@ -15,6 +15,8 @@
   - [Create custom Interact](create-custom-interact.md)
   - [Create custom Event](create-custom-event.md)
   - [Create custom Choice](create-custom-choice.md)
+  - [Create custom Fixer](create-custom-fixer.md)
+  - [Create custom Faction](create-custom-faction.md)
   - [Share your datapack](share-your-datapack.md)
 
 - 📖 Glossary
