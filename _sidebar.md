@@ -12,6 +12,10 @@
   - [Creating content with CyberScript](creating-content-with-cyberscript.md)
   - [Create an datapack folder](create-an-datapack-folder.md)
   - [Create custom Quest](create-custom-quest.md)
+  - [Create custom Interact](create-custom-interact.md)
+  - [Create custom Event](create-custom-event.md)
+  - [Create custom Choice](create-custom-choice.md)
+  - [Share your datapack](share-your-datapack.md)
 
 - 📖 Glossary
   
