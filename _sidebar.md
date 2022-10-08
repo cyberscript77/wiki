@@ -26,6 +26,9 @@
 
 - 🎓 Master
 
+  - [Context](context.md)
+  - [Custom NPC (ent file) with anim](custom-npc.md)
+
 - 📖 Glossary
   
   - [Datapack Flags](datapack-flag.md)
@@ -38,8 +41,8 @@
   - [Phone Avatar List](phone-avatar-list.md)
   - [Possible voices](possible-voices.md)
   - [Vehicle List](vehicle-list.md)
-  - [Work In Porgress](work-in-progress.md)
 
 - 🤖 Misc
   - [Troubleshooting](troubleshooting.md)
   - [Download from Github](download-from-github.md)
+  - [Work In Porgress](work-in-progress.md)
