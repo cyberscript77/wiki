@@ -141,7 +141,7 @@ Lets describe them
 
 **Option 1**
 
-Description is "Take the blue pills" Trigger is auto (automatically unlocked) requirement require only auto trigger it have an list of action that contains one action (you can find the list [here]()):
+Description is "Take the blue pills" Trigger is auto (automatically unlocked) requirement require only auto trigger it have an list of action that contains one action (you can find the list [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)):
 
 - a subtitle that will show "Morpheus : Make good dreams, Neo !"
 
@@ -204,7 +204,7 @@ the structure of the folder should be
      └── 📃 amazingInteract.json
 ```
 
-Select the datapack "myAmazingDatapack " in cycle interact ([What are you talking about ?]())
+Select the datapack "myAmazingDatapack" in cycle interact ([What are you talking about ?](cet-key-binding.md))
 
 then hit the key for use your interact. Dialog should show !
 

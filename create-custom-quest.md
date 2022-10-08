@@ -37,8 +37,8 @@ A mission/quest has several things :
 - An "title"
 - an "Content description"
 - an "recommanded Level"
-- an "questtype" : you can find the definition [here]()
-- an "district" : you can find the definition [here]()
+- an "questtype" : you can find the definition [here](https://nativedb.red4ext.com/gameJournalQuestType)
+- an "district" : you can find the definition [here](https://nativedb.red4ext.com/gamedataDistrict)
 - is "recurrent" or not
 - several triggers (what will unlock the quest)
 - triggers requirement (in which order trigger need to be fullfilled to unlock the quest)
@@ -79,7 +79,7 @@ For this example, we want the quest can be unlocked when you see Rogue as Fixer 
 
 So let's add a trigger "fixer"
 
-you can found all trigger definitions [here]()
+you can found all trigger definitions [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/triggertemplate.json)
 
 **The trigger for fixer is :**
 ```json
@@ -139,7 +139,7 @@ This setup the mission.
 
 We will fill the list of trigger_action
 
-We will fill it with action. You can find every possible action [here]()
+We will fill it with action. You can find every possible action [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
 
 lets fill our json and describe every action
 
@@ -235,21 +235,21 @@ lets fill our json and describe every action
 First one is "subtitle".
 
 - title : it will display an subtitle with the text described in "title" field.
-- Type 1 means Regular (you can check every possible type [here]()
+- Type 1 means Regular (you can check every possible type [here](https://nativedb.red4ext.com/scnDialogLineType)
 - target : player means the entity who the subtitle will be affected is the player
 - speaker is the speaker. It's an text. In our case we write Rogue. So it will display "Rogue : Some bonks attack the afterlife, show them some respect !".You can put banana or anything. It's just an text that indicate who speak. -persistent : false means that the subtitle doesn't stay forever displayed. -duration : means in second how much time it will be displayed if not persistent.
 
 Then we will make the answer of V. We want much varieties so V will be able answer an random subtitle from an list. we use the action "random_subtitle"
 
 - title : it will display an random text in the list. It's an list of text so you have ["textA","textB"...]
-- Type 1 means Regular (you can check every possible type [here]()
+- Type 1 means Regular (you can check every possible type [here](https://nativedb.red4ext.com/scnDialogLineType)
 - target : player means the entity who the subtitle will be affected is the player
 - speaker is the speaker. It's a text. In our case we write V. So it will display "V: [random text]". You can put banana or anything. It's just an text that indicate who speak. -persistent : false means that the subtitle doesn't stay forever displayed. -duration : means in second how much time it will be displayed if not persistent.
 
 Finally we want set an map pin to indicate to the player where he need to go to start the first objective. We use the action : set_mappin. it's an complex at look but easy action. let's take an look :
 
 - "tag", the tag of the mappin for let cyberscript engine know who is it.
-- "typemap", the type of icon of the mappin. in our case we want it as custom white mappin. you can find all possibilities [here]()
+- "typemap", the type of icon of the mappin. in our case we want it as custom white mappin. you can find all possibilities [here](https://nativedb.red4ext.com/gamedataMappinVariant)
 - "wall" : this mapin can be seen through wall.
 - "active" : this mappin is tracked
 - "mapgroup" : you can bound several mappin in an group. In our case, we doesn't need it now
@@ -413,7 +413,7 @@ Sooo... it add some texts, right ? But don't be scared, we are good !
 
 - "title" : the title of the objective
 - "tag" : the tag of the objective (cyberscript engine will know it as ) 
-- "state" : the default state of the objective, you can found all definition [here]()
+- "state" : the default state of the objective, you can found all definition [here](https://nativedb.red4ext.com/gameJournalEntryState)
 
 We put our at state 2 means Active (so you can track it by default, normal, it's the first one 😉)
 
@@ -702,7 +702,7 @@ let's describe it :
 - appearance : useful if you want to setup an specific appearance (like naked judy 🐷) but in our case, we don't need.
 - create_group_if_not_exist :false, don't care about it. But with this, you don't need to use create_group action before, it will create an group automatically.
 - source : npc. there is several source but npc means we will indicate to the mod directly what model of npc we want spawn.
-- source_tag : we set the model name (TweakID) of the one that we want : Character.cpz_maelstrom_grunt2_ranged2_ajax_wa. you can found all possible model [here]()
+- source_tag : we set the model name (TweakID) of the one that we want : Character.cpz_maelstrom_grunt2_ranged2_ajax_wa. you can found all possible model [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/CharacterTable.xlsx?raw=true)
 
 **don't care about :**
 
@@ -790,7 +790,7 @@ after this, we want them to shout a battle cry, so we put action :
 }, 
 ```
 
-voice is an game voice name reference. you can found them all [here]()
+voice is an game voice name reference. you can found them all [here](possible-voices.md)
 
 Now we want it wait 3 second again, to give time to them to comes to you. so we use action : wait_second with value at 3
 

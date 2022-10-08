@@ -219,7 +219,7 @@ It should pack your project into an .archive file and copy it to  (GOG or steam 
 
 We need make an interact (or any other object that use actions) for use it.
 
-you can follow this tutorial for make an interact : [How to make an custom Interact ?]()
+you can follow this tutorial for make an interact : [How to make an custom Interact ?](create-custom-interact.md)
 
 There is a small example that will work :
 

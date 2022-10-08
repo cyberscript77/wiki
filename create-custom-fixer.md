@@ -125,7 +125,7 @@ For this example, we want that the fixer is always unlocked
 
 So let's add an trigger definition named "always_enable" who use the trigger "auto"
 
-you can found all trigger definition [here]()
+you can found all trigger definition [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/triggertemplate.json)
 
 All right, we have setup an condition for getting the event!
 
@@ -137,7 +137,7 @@ We will fill the list of spawn_action
 
 We will fill it with action.
 
-You can find every possible action [here]()
+You can find every possible action [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
 
 lets make fill our json and describe it
 
@@ -185,7 +185,7 @@ lets make fill our json and describe it
 we use "subtitle".
 
 - title : it will display an subtitle with the text described in "title" field.
-- Type 1 means Regular (you can check every possible type [here]()
+- Type 1 means Regular (you can check every possible type [here](https://nativedb.red4ext.com/scnDialogLineType)
 - target : player means the entity who the subtitle will be affected is the player
 - speaker is the speaker. It's an text. In our case we write Rogue. So it will display "My Amazing Fixer : Hi V ! want take an job ?". You can put banana or anything. It's just an text that indicate who speak.
 - persistent : false means that the subtitle doesn't stay forever displayed.
@@ -199,7 +199,7 @@ We will fill the list of despawn_action
 
 We will fill it with action.
 
-You can find every possible action [here]()
+You can find every possible action [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
 
 lets make fill our json and describe it
 

@@ -25,5 +25,5 @@ There are two ways to download.
 After downloading our **CyberScript Core**, time to experience it 😋. Choose your operating system and follow the guide.
 
 I'm using 
-- [Windows 10, 11]()
+- [Windows 10, 11](installation.md)
 - [Linux Os or Steam Deck](installation-linux.md)

@@ -83,7 +83,7 @@ functions are called through an action. do_function or do_random_function
 
 so we need make an interact (or any other object that use actions) for use it.
 
-you can follow this tutorial for make an interact : [How to make an custom Interact ?]()
+you can follow this tutorial for make an interact : [How to make an custom Interact ?](create-custom-interact.md)
 
 There is a small example that will work :
 
@@ -134,7 +134,7 @@ the structure of the folder should be
 
 Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript Datapack Manager and enable myAmazingDatapack
 
-Select the datapack "myAmazingDatapack " in cycle interact ([What are you talking about ?]())!
+Select the datapack "myAmazingDatapack " in cycle interact ([What are you talking about ?](cet-key-binding.md))!
 
 then hit the key for use your interact. Function should execute !
 

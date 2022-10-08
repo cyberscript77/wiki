@@ -3,6 +3,7 @@
   - [Quick start](quickstart.md)
   - [Installation](installation.md)
   - [Installation Linux](installation-linux.md)
+  - [CET Key Binding](cet-key-binding.md)
   - [Playing with CyberScript](playing-with-cyberscript.md)
   - [Multiplayer](multiplayer.md)
 

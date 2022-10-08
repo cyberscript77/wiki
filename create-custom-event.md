@@ -103,7 +103,7 @@ For this example, we want that the event is unlocked when V is at location "x": 
 
 So let's add a trigger definition named "playerposition" who uses the trigger "entity_at_position"
 
-you can find all trigger definition [here]()
+you can find all trigger definition [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/triggertemplate.json)
 
 All right, we have setup a condition for getting the event!
 
@@ -113,7 +113,7 @@ For this example, we want a game notification display "Hey ! Something happens !
 
 We will fill the list of action
 
-We will fill it with action. You can find every possible action [here]()
+We will fill it with action. You can find every possible action [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
 
 Lets fill our json and describe it
 

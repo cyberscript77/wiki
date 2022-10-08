@@ -89,7 +89,7 @@ For this example, we want that the interact is always unlocked
 
 So let's add a trigger "auto"
 
-you can find all trigger definition [here]()
+you can find all trigger definition [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/triggertemplate.json)
 
 let's add it to our interact as "mytrigger" and add it in requirement too :
 
@@ -122,7 +122,7 @@ For this example, we want a game notification display "Hello world"
 
 We will fill the list of action
 
-We will fill it with action. You can find every possible action [here]()
+We will fill it with action. You can find every possible action [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
 
 lets make fill our json and describe it
 

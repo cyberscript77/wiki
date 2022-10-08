@@ -7,22 +7,22 @@
 
 # Basics
 - [How to make an custom Quest ?](create-custom-quest.md)
-- [How to make an custom Interact ?]()
-- [How to make an custom Event?]()
-- [How to make an custom Choice (Dialog options)?]()
-- [How to make an custom Fixer ?]()
-- [How to make an custom Faction?]()
+- [How to make an custom Interact ?](create-custom-interact.md)
+- [How to make an custom Event?](create-custom-event.md)
+- [How to make an custom Choice (Dialog options)?](create-custom-choice.md)
+- [How to make an custom Fixer ?](create-custom-fixer.md)
+- [How to make an custom Faction?](create-custom-faction.md)
 
 # Advanced
-- [[Advanced] How to make an custom Function?]()
-- [[Advanced] How to make a custom Setting with Cyberscript]()
+- [[Advanced] How to make an custom Function?](create-function.md)
+- [[Advanced] How to make a custom Setting with Cyberscript](create-custom-settings.md)
 
 # Master
-- [[Advanced] How to make an custom Function?]()
-- [[Advanced] How to make a custom Setting with Cyberscript]()
+- [[Master] Context](create)
+- [[Master] How to make your custom ENT file (NPC) with specific pose and make them spawn](custom-npc.md)
 
 # Community
-- [Share your datapack to our community!]()
+- [Share your datapack to our community!](share-your-datapack.md)
   
 # Next
-- [[WIP] More to come !]()
+- [[WIP] More to come !](work-in-progress.md)

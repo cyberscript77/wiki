@@ -49,7 +49,7 @@ You can see many fields in it, let's describe it :
 - file : name of the archive when it will be zipped, it should use the tag + ".zip"
 - tag : the word identifier of the datapack, the mod will recognize it by this field
 - version : the version of the datapack, should be formated X.X.X (Major.Medium.Minor)
-- flags : the "requirements" and extra information about the datapack. For this case, "cm_verson" means it should require at least cyberscript 1.2.8. List of possible flag [here]()
+- flags : the "requirements" and extra information about the datapack. For this case, "cm_verson" means it should require at least cyberscript 1.2.8. List of possible flag [here](datapack-flag.md)
 - Compile is a flag that works with auto refresh. The way it works is if you were to change 1 thing in your datapack while the game is open, Just simply pause and unpause for the change to be made.
 
 All right, save it and close the file, we are done with the desc.json. Easy, right ?<br>
