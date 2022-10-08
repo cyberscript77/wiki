@@ -2,7 +2,7 @@
 
 > In this page, you will be able to follow an small tutorials about making your own choice in JSON and play it with Cyberscript.
 
-**It will be an long but fully complete tutorial. At the end you will be able to see the described event.**
+**It will be an long but fully complete tutorial. At the end you will be able to see the described dialog or choice.**
 
 **To start, you need:**
 - 📄 Text editor : VS code, Notepad (hard but possible) or Notepad ++ (my favorite). Along with Notepad++ you need a Json Plugin for it as well.

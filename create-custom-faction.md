@@ -2,7 +2,7 @@
 
 In this page, you will be able to follow a small tutorial about making your own interact in JSON and play it with Cyberscript.
 
-**It will be an long but fully complete tutorial. At the end you will be able to see the described event.**
+**It will be an long but fully complete tutorial. At the end you will be able to see the described faction.**
 
 **To start, you need:**
 - 📄 Text editor : VS code, Notepad (hard but possible) or Notepad ++ (my favorite). Along with Notepad++ you need a Json Plugin for it as well.
@@ -155,7 +155,7 @@ the structure of the folder should be
 
 ```structure
 ├── 📃 desc.json
-├── 📁 faction
+└── 📁 faction
      └── 📃 amazingFaction.json
 ```
 

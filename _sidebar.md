@@ -19,6 +19,13 @@
   - [Create custom Faction](create-custom-faction.md)
   - [Share your datapack](share-your-datapack.md)
 
+- 😎 Advanced
+
+  - [Create Function](create-function.md)
+  - [Create Custom Settings](create-custom-settings.md)
+
+- 🎓 Master
+
 - 📖 Glossary
   
   - [Datapack Flags](datapack-flag.md)
