@@ -20,7 +20,7 @@ There are two ways to download.
 - Through Nexus platform
 - Our Github repository
 
-?> **Download from any one of the link**<br><br>▶️ Link to download from our Nexus page https://www.nexusmods.com/cyberpunk2077/mods/1339<br>▶️ Link to download from our github repository https://github.com/cyberscript77/core<br>🥺 Don't know how to download from github ? [Follow this guide](download-from-github.md)
+?> **Download from any one of the link**<br><br>▶️ Link to download from our Nexus page https://www.nexusmods.com/cyberpunk2077/mods/1339<br>▶️ Link to download from our github repository https://github.com/cyberscript77/release<br>🥺 Don't know how to download from github ? [Follow this guide](download-from-github.md)
 
 After downloading our **CyberScript Core**, time to experience it 😋. Choose your operating system and follow the guide.
 
