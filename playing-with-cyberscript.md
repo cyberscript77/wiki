@@ -2,7 +2,6 @@
 
 > Should I say "How to use datapacks ?" Nvm..
 
-!> Missions of Night City (`BROKEN TILL NOTICE`, but you can check example with Dirty Missions datapack, it's the same behavior 😉)
 
 When enabling any datapack, whether it be in bunches or one at a time, ALWAYS GO TO CyberScript settings to `REFRESH DATAPACK CACHE`.
 
