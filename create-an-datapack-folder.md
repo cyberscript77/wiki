@@ -25,6 +25,23 @@ So now :
 - create an folder "bin". Inside this folder, reate this path : "bin\x64\plugins\cyber_engine_tweaks\mods\cyberscript\datapack\"
 - Create a folder named for example "myAmazingDatapack"
 - In this folder at the root, create a file text named desc.json. OR just copy n' paste an existing one and change out it's values, as a starter.
+the structure of the folder should be :
+
+
+```structure
+📁 bin
+├── 📁 x64
+     ├── 📁 plugins
+          ├── 📁 cyber_engine_tweaks
+              ├── 📁 mods
+                   ├── 📁 cyberscript  
+                        ├── 📁 datapack  
+                              ├── 📁 myAmazingDatapack  
+                                    └── 📃 desc.json
+```
+
+
+
   
 Now we will fill this `desc.json`
 
