@@ -2,7 +2,7 @@
 
 > This page covers the installation on windows, linux and steam deck.
 
-<span style="color:red; font-weight:bold;">⚠️ We don't support Vortex mod manager</span>.
+<span style="color:green; font-weight:bold;">⚠️ We support Vortex mod manager</span>.
 
 ## Requirements
 
