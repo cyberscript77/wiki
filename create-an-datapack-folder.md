@@ -22,6 +22,7 @@ It can be missions, dialogs, places and events...
 It have also an file named desc.json (that the case for every datapack) it contains the information for the mod about the datapack.
 
 So now :
+- create an folder "bin". Inside this folder, reate this path : "bin\x64\plugins\cyber_engine_tweaks\mods\cyberscript\datapack\"
 - Create a folder named for example "myAmazingDatapack"
 - In this folder at the root, create a file text named desc.json. OR just copy n' paste an existing one and change out it's values, as a starter.
   
