@@ -184,12 +184,12 @@ For schema it :
 					   Text
 					    |
 Text				Image	   Area	
- |				  |         |
-Button				Rectangle___		Text
+|				  |        |
+Button			Rectangle___			Text
  |				  |			  |
-Background			Background		Circle
+Background		Background		 	Circle
  |    				  |   			  |
-Area				Area			Area
+Area				Area		  	 Area
  |				  |             	  |          ....
 ___________________________________________________________________________________________________________________________________________________________
 								 |
