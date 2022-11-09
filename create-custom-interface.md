@@ -249,14 +249,96 @@ let's look at the first one :
 - "type":  There are several type for element, we will describe them later. We choose area, means its an area, simple.
 - "tag": the identity of this element in Cyberscript
 - "rotation": You can rotate this element to an angle (like 180° or 360°) ([Do your math](https://en.wikipedia.org/wiki/Angle))
-- "anchor": 15,
-- "fittocontent": true,
-- "trigger": 
-- "auto": 
-- "margin":
-- "size": 
-- "scale":
-- "requirement":
+- "anchor": This one is hard to describe and very important. It determine how is hooked your element to his parent. In that specific case, the parent is one of 3 possible way and is not mentionned. We use 15, means Fill. It will fill the whole area according to the parent size. 
+
+Here the list of possible Anchors : 
+```
+
+inkEAnchor
+{
+   TopLeft = 0,
+   TopCenter = 1,
+   TopRight = 2,
+   CenterLeft = 3,
+   Centered = 4,
+   CenterRight = 5,
+   BottomLeft = 6,
+   BottomCenter = 7,
+   BottomRight = 8,
+   TopFillHorizontaly = 9,
+   CenterFillHorizontaly = 10,
+   BottomFillHorizontaly = 11,
+   LeftFillVerticaly = 12,
+   CenterFillVerticaly = 13,
+   RightFillVerticaly = 14,
+   Fill = 15
+}
+
+
+```
+
+
+
+- "fittocontent": means your element size will fit to his content (elements hooked on it)
+- "trigger": see [Scripting basics](https://cyberscript77.github.io/wiki/#/scripting-basics)
+- "requirement":see [Scripting basics](https://cyberscript77.github.io/wiki/#/scripting-basics)
+- "margin": From the anchor point, the margin of your element. It can be "top","bottom","left","right". For example you want that your element have an extra space from the top border of your container area, you will put "top":15, it will add 15 pixel margin from the top border of the parent.
+- "size": the size of your element, "width" and "height"
+- "scale": the scale of your element, "width" and "height". Leave it to 1 if not needed.
+
+
+This element is the first layer over the game element. it's your entry point to hook and create UI. But in that form it's unusable. Thta's why we need the second element : 
+
+
+
+```
+
+{
+			"type": "area",
+			"tag": "container",
+			"parent": "rootarea",
+			"rotation": 0,
+			"anchor": 15,
+			"opacity": 1,
+			"visible": true,
+			"fittocontent": false,
+			
+			"trigger": {
+				"auto": {
+					"name": "auto"
+				}
+			},
+			"margin": {
+				"left": 0,
+				"top": 0
+			},
+			"size": {
+				"width": 1000,
+				"height": 1000
+			},
+			"scale": {
+				"width": 1,
+				"height": 1
+			},
+			"requirement": [
+				[
+					"auto"
+				]
+			]
+		},
+
+
+```
+
+Now we have the second layer and think can really start to begin.
+
+Basically, you have to see theses two elements as an "ground" and you will put several box on this ground. In theses box, there is maybe an 
+
+Now we will want to display an Text message, with color and background. Let's try !
+
+
+First
+
 
 
 
