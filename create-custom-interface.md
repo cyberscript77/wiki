@@ -1183,6 +1183,12 @@ For hide it , you can make another interact :
 }
 ```
 
+# Actions related to interfaces :
+- open_interface : will open interface into an popup
+- apply_interface_to_hud : will show interface on the hud
+- clear_interface : will hide interface
+
+
 
 # Test your interact and your dialog !
 
