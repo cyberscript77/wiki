@@ -342,7 +342,7 @@ Like this :
 If we look from upper the ground, it will result an UI, like the game will display it 
 
 
-![](./assets/images/misc/interface/HUD Top.png ":no-zoom")
+![](./assets/images/misc/interface/HUDTop.png ":no-zoom")
 
 Now we will want to display an Text message, with color and background. Let's try !
 
