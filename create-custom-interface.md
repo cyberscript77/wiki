@@ -176,7 +176,7 @@ Why I told you this ? because depending the way you choose, you will apply your 
 
 For schema it : 
 
-```
+```structure
 
 
 
@@ -209,7 +209,7 @@ Here you have written two elements. They look like very similar but it's importa
 let's look at the first one :
 
 
-```
+```json
 
 {
 			"type": "area",
@@ -252,7 +252,7 @@ let's look at the first one :
 - "anchor": This one is hard to describe and very important. It determine how is hooked your element to his parent. In that specific case, the parent is one of 3 possible way and is not mentionned. We use 15, means Fill. It will fill the whole area according to the parent size. 
 
 Here the list of possible Anchors : 
-```
+```csharp
 
 inkEAnchor
 {
@@ -291,7 +291,7 @@ This element is the first layer over the game element. it's your entry point to 
 
 
 
-```
+```json
 
 {
 			"type": "area",
@@ -843,7 +843,7 @@ But what if we can dynamically change some properties like the color or the text
 
 for this you can add the field :
 
-```
+```json
 "dynamic": [],
 ```
 
@@ -868,7 +868,7 @@ For any other elements that are not typed as button or scrollarea :
 Combine it with context on element and you will have an dynamic element that will be refresh every frame !
 
 so for example : 
-```
+```json
 "dynamic": ["color","text],
 ```
 
@@ -882,49 +882,49 @@ will refresh after an context checking the props textcolor and text of an label 
 - tag : tag of the element
 - parent : parent of the element
 - margin 
-```
+```json
 "margin": {
 	"left": 1050,
 	"top": 250
 },
 ```
 - padding
-```
+```json
 "padding": {
 	"left": 1050,
 	"top": 250
 },
 ```
 - size
-```
+```json
 "size": {
 	"width": 1050,
 	"height": 250
 },
 ```
 - scale
-```
+```json
 "scale": {
 	"width": 1050,
 	"height": 250
 },
 ```
 - translation
-```
+```json
 "translation": {
 	"width": 1050,
 	"height": 250
 },
 ```
 - transform
-```
+```json
 "transform": {
 	"width": 1050,
 	"height": 250
 },
 ```
 - textcolor
-```
+```json
 "textcolor": {
 	"red": 30,
 	"blue": 205,
@@ -932,23 +932,23 @@ will refresh after an context checking the props textcolor and text of an label 
 },
 ```
 - fittocontent
- ```
+ ```json
 "fittocontent": true,
 ```
 - opacity
-```
+```json
 "opacity": 1,
 ```
 - rotation
-```
+```json
 "rotation": 45,
 ```
 - interactive
-```
+```json
 "interactive": true,
 ```
 - event
-```
+```json
 "event": [
 	{
 		"eventname": "OnEnter", ... can be "OnEnter","OnRelease","OnLeave"
@@ -961,20 +961,20 @@ will refresh after an context checking the props textcolor and text of an label 
 ],
 ```
 - horizontalalign 
-```
+```json
 "horizontalalign": 0, ...   Fill = 0,   Left = 1,   Center = 2,   Right = 3
 ```
 - anchor
-```
+```json
 "anchor": 0 ...TopLeft = 0,   TopCenter = 1,   TopRight = 2,   CenterLeft = 3,   Centered = 4,   CenterRight = 5,   BottomLeft = 6,   BottomCenter = 7,   BottomRight = 8,   TopFillHorizontaly = 9,   CenterFillHorizontaly = 10,   BottomFillHorizontaly = 11,   LeftFillVerticaly = 12,   CenterFillVerticaly = 13,   RightFillVerticaly = 14,   Fill = 15
 },
 ```
 - verticalalign
-```
+```json
 "verticalalign": 0,  ... Fill = 0,   Top = 1,   Center = 2,   Bottom = 3
 ```
 - style
-```
+```json
 "style": {
 	"fontsize": 30
 },
@@ -990,7 +990,7 @@ Special properties :
 - "text" : text content
 - "split": XX (optionnal, XX is number) : will split the text into X characters sections
 - style
-```
+```json
 "style": {
 	"fontsize": 30
 },
@@ -1008,7 +1008,7 @@ Special properties :
 - "text" : text content
 - "split": XX (optionnal, XX is number) : will split the text into X characters sections
 - style
-```
+```json
 "style": {
 	"fontsize": 30
 },
@@ -1031,7 +1031,7 @@ Button widget.
 
 Special properties :
 -"bgcolor": will be the background color
-```
+```json
 "bgcolor": {
 	"red": 30,
 	"blue": 205,
@@ -1058,7 +1058,7 @@ An Area. Simple and efficient
 Will display children in vertical line.
 Special properties :
 - childmargin : margin of the child inside the area
-```
+```json
 "childmargin": {
 	"left": 1050,
 	"top": 250
@@ -1069,7 +1069,7 @@ Special properties :
 Will display children in horinzontal line.
 Special properties :
 - childmargin : margin of the child inside the area
-```
+```json
 "childmargin": {
 	"left": 1050,
 	"top": 250
@@ -1086,19 +1086,19 @@ An simple Circle.
 An custom shape.
 Special properties :
 - shapevariant : how will be filled the shape
-```
+```json
 "shapevariant": 0 ... Fill = 0,   Border = 1,   FillAndBorder = 2
 ```
 - linethickness : line thickness 
-```
+```json
 "linethickness": 5
 ```
 - endcapstyle : End Cap Style
-```
+```json
 "endcapstyle": 3 ... BUTT = 0,   SQUARE = 1,   ROUND = 2,   JOINED = 3
 ```
 - vertex : Points of the shape
-```
+```json
 "vertex": [
 	{
 		"x": 0,
