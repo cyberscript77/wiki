@@ -63,82 +63,204 @@ Now let's make it in JSON :
   [
   ...list of the differents elements inside the UI
   ]
+}
 ```
 
-This is the skeleton of our choice. For resume what you see below : The choice is have a text : "Time to make a choice, choomba !",
+This is the skeleton of our interface. For resume what you see below : The interface is named "myUI",
 
-Cyberscript know it as "my_amazing_choice".
+Cyberscript know it as "myUI".
 
-it doesn't have a trigger
+it have a empty on_load actions list.
 
-it doesnt have a requirement
+it have a empty controls list.
 
-it have a empty options list.
-
-Lets fill it with two choices :
+Lets fill control list with 2 elements :
 
 ```json
-[
-	{
-        "Desc": "Time to make a choice, choomba !",
-        "speaker": {
-            "value": "Morpheus",
-            "way": "speak"
-        },
-        "Tag": "my_amazing_choice",
-        "trigger": {},
-        "requirement": [],
-        "options": [
-			{
-                "Description": "Take the blue pills",
-                "icon":"FlatheadIcon",
-                "action": [
-					{
-						"name": "subtitle",
-						"title": "Make good dreams, Neo !",
-						"type": 1,
-						"target": "player",
-						"speaker": "Morpheus",
-						"duration": 2,
-						"helper": "This action will fire an random subtitle, it act live wait for second",
-						"helperTitle": "Dialog : run random subtitle"
-					}
-                ],
-                "trigger": {
-                    "auto": {
-                        "name": "auto"
-                    }
-                },
-                "requirement": [["auto"]]
-            }, 
-            {
-                "Description": "Take the red pills",
-                 "icon":"FlatheadIcon",
-                "action": [
-					{
-						"name": "subtitle",
-						"title": "Welcome to the matrix, Neo !",
-						"type": 1,
-						"target": "player",
-						"speaker": "Morpheus",
-						"duration": 2,
-						"helper": "This action will fire an random subtitle, it act live wait for second",
-						"helperTitle": "Dialog : run random subtitle"
-					}
-                ],
-                "trigger": {
-                    "auto": {
-                        "name": "auto"
-                    }
-                },
-                "requirement": [["auto"]]
-            }
-        ]
-    }
-]
+{
+	"title": "myUI",
+	"tag": "myUI",
+	"onload_action": [
+
+ 
+
+
+	],
+	"controls": 
+	[
+	  	{
+			"type": "area",
+			"tag": "rootarea",
+			"rotation": 0,
+			"anchor": 15,
+			"fittocontent": true,
+
+			"trigger": {
+				"auto": {
+					"name": "auto"
+				}
+			},
+			"margin": {
+				"left": 0,
+				"top": 0
+			},
+			"size": {
+				"width": 1000,
+				"height": 1000
+			},
+			"scale": {
+				"width": 1,
+				"height": 1
+			},
+			"requirement": [
+				[
+					"auto"
+				]
+			]
+		},
+
+
+
+		{
+			"type": "area",
+			"tag": "container",
+			"parent": "rootarea",
+			"rotation": 0,
+			"anchor": 15,
+			"opacity": 1,
+			"visible": true,
+			"fittocontent": false,
+			
+			"trigger": {
+				"auto": {
+					"name": "auto"
+				}
+			},
+			"margin": {
+				"left": 0,
+				"top": 0
+			},
+			"size": {
+				"width": 1000,
+				"height": 1000
+			},
+			"scale": {
+				"width": 1,
+				"height": 1
+			},
+			"requirement": [
+				[
+					"auto"
+				]
+			]
+		},
+  ]
+}
 ```
 
-Here you have two options.
+
+
+Before getting into it, let's talk a little about UI process.
+
+Your UI is an stack of layer that you put one over one.
+
+Your base will be the lowest layer then you stack new element on it.
+
+Cyberscript let you use interface in 3 ways possible for now : 
+
+- Inside an popup windows like shard, the base will be the popup element hud, you don't need to take care of it.
+- As HUD element, you will be able to stack on an particular hud element. It can be the whole HUD "frame", that is invisible or hook to an hud element like mini-map.
+- As custom WebPage, the base will be the web browser page layout, who is invisible.
+
+Why I told you this ? because depending the way you choose, you will apply your interface to different "bases".
+
+For schema it : 
+
+```
+
+
+
+						
+					   Text
+					    |
+Text				Image	   Area	
+ |				  |         |
+Button				Rectangle___		Text
+ |				  |			  |
+Background			Background		Circle
+ |    				  |   			  |
+Area				Area			Area
+ |				  |             	  |          ....
+___________________________________________________________________________________________________________________________________________________________
+								 |
+							    Your UI Base
+								 |
+							Hooked Game Base
+						 (popup, exiiting hud element, webpage browser)
+```
+
+
+
+Now, back to work.
+
+
+Here you have written two elements. They look like very similar but it's important to have theses one. It will be the personnal base of your UI.
+
+let's look at the first one :
+
+
+```
+
+{
+			"type": "area",
+			"tag": "rootarea",
+			"rotation": 0,
+			"anchor": 15,
+			"fittocontent": true,
+
+			"trigger": {
+				"auto": {
+					"name": "auto"
+				}
+			},
+			"margin": {
+				"left": 0,
+				"top": 0
+			},
+			"size": {
+				"width": 1000,
+				"height": 1000
+			},
+			"scale": {
+				"width": 1,
+				"height": 1
+			},
+			"requirement": [
+				[
+					"auto"
+				]
+			]
+		},
+
+
+```
+
+
+- "type":  There are several type for element, we will describe them later. We choose area, means its an area, simple.
+- "tag": the identity of this element in Cyberscript
+- "rotation": You can rotate this element to an angle (like 180° or 360°) ([Do your math](https://en.wikipedia.org/wiki/Angle))
+- "anchor": 15,
+- "fittocontent": true,
+- "trigger": 
+- "auto": 
+- "margin":
+- "size": 
+- "scale":
+- "requirement":
+
+
+
+
 
 Lets describe them
 
