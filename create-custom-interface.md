@@ -332,7 +332,17 @@ This element is the first layer over the game element. it's your entry point to 
 
 Now we have the second layer and think can really start to begin.
 
-Basically, you have to see theses two elements as an "ground" and you will put several box on this ground. In theses box, there is maybe an 
+Basically, you have to see theses two elements as an "ground" and you will put several box on this ground. In theses box, there is several elements.
+
+Like this : 
+
+![](./assets/images/misc/interface/HUD.png ":no-zoom")
+
+
+If we look from upper the ground, it will result an UI, like the game will display it 
+
+
+![](./assets/images/misc/interface/HUD Top.png ":no-zoom")
 
 Now we will want to display an Text message, with color and background. Let's try !
 
