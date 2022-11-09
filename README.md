@@ -20,6 +20,10 @@ See the [Quick start](quickstart.md) guide for more details.
 
 Check out our datapacks [Datapack Hub](https://cyberscript77.github.io/datapack/) to fetch the latest updates and new datapacks.
 
+# Wiki
+
+Check out our [Wiki](https://cyberscript77.github.io/wiki/).
+
 # Release notes
 
 View the [Change log](changelog.md) to know the details of each versions.
