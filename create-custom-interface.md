@@ -839,19 +839,31 @@ for this you can add the field :
 
 
 Inside that field, you can add one or several type of dynamic refreshing props. Here is the list : 
+
 -"default" will update the props : "textcolor","visible","opacity","rotation","size","margin","translation","padding","pivot","text"
+
 -For an label typed element, "text" will  refresh the text props.
+
 -For an shape typed element, "shape" will refresh the props "vertex","shapevariant","linethickness","endcapstyle"
 
 For any other elements that are not typed as button or scrollarea : 
+
 -"color" will refresh textcolor props
+
 -"visible" will refresh visible props
+
 -"opacity" will refresh opacity props
+
 -"rotation" will refresh rotation props
+
 -"size" will refresh width and height props
+
 -"margin" will refresh textcolor props
+
 -"translation" will translationwidth and translationheight props
+
 -"padding" will refresh padding props
+
 -"pivot" will refresh transformwidth and transformheight props
 
 
