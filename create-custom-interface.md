@@ -35,16 +35,6 @@ Open it with your favorite text editor.
 
 Now we have a blank page. But don't worry, we will fill it step by step.
 
-Let's talk about interface structure :
-
-A dialog is an list of choice. a choice have several things :
-- A Desc
-- A speaker
-- a Tag
-- several triggers (what will unlock the choice) you can found the list here
-- triggers requirement (in which order triggers need to be fulfilled to unlock the choice)
-- an options list : some object that will perform when you choose it.
-
 Now let's make it in JSON :
 
 ```json
