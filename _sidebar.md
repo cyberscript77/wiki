@@ -18,6 +18,7 @@
   - [Create custom Choice](create-custom-choice.md)
   - [Create custom Fixer](create-custom-fixer.md)
   - [Create custom Faction](create-custom-faction.md)
+  - [Create custom QuickHack](create-custom-quickhack.md)
   - [Share your datapack](share-your-datapack.md)
 
 - 😎 Advanced
@@ -47,4 +48,4 @@
 - 🤖 Misc
   - [Troubleshooting](troubleshooting.md)
   - [Download from Github](download-from-github.md)
-  - [Work In Porgress](work-in-progress.md)
+  - [Work In Progress](work-in-progress.md)
