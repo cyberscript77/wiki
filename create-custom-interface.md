@@ -622,7 +622,7 @@ Now we want add an rectangle who will be our backgound frame to that element.
 ```
 Here, we have an reactangle typed element tagged as "title_background", hooked to "title_area". Width is 200 and height is 100, there is no particular trigger and requirement (auto) and scale is 1:1.
 Opacity is 0.2. It doesn't fit to content who will be stacked in it. Anchor from parent is TopLeft (0). There is no speicific margin. The color of the element is 
-"red": 46, "blue": 209 and "green": 209 who result as [this color](https://colorpicker.me/#2ed1d1) .
+"red": 46, "blue": 209 and "green": 209 who result as [this color](https://colorpicker.me/#d18f2e) .
 
 
 Now we will add an text on that box : 
