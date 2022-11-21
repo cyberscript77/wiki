@@ -432,37 +432,37 @@ let's add :
 				]
 			]
 		},
-		{
-			"type": "area",
-			"tag": "title_area",
-			"parent": "container",
-			"rotation": 0,
-			"anchor": 15,
-			"opacity": 1,
-			"fittocontent": false,
-			"trigger": {
-				"auto": {
-					"name": "auto"
-				}
-			},
-			"margin": {
-				"left": 0,
-				"top": 15
-			},
-			"size": {
-				"width": 200,
-				"height": 200
-			},
-			"scale": {
-				"width": 1,
-				"height": 1
-			},
-			"requirement": [
-				[
-					"auto"
-				]
-			]
-		},
+	  {
+            "type": "area",
+            "tag": "title_area",
+            "parent": "container",
+            "rotation": 0,
+            "anchor": 1,
+            "opacity": 1,
+            "fittocontent": false,
+            "trigger": {
+                "auto": {
+                    "name": "auto"
+                }
+            },
+            "margin": {
+                "left": 0,
+                "top": 500
+            },
+            "size": {
+                "width": 200,
+                "height": 200
+            },
+            "scale": {
+                "width": 1,
+                "height": 1
+            },
+            "requirement": [
+                [
+                    "auto"
+                ]
+            ]
+        },
   ]
 }
 ```
@@ -582,41 +582,41 @@ Now we want add an rectangle who will be our backgound frame to that element.
 				]
 			]
 		},
-		{
-			"type": "rectangle",
-			"tag": "title_background",
-			"fittocontent": false,
-			"anchor": 0,
-			"opacity": 0.2,
-			"parent": "title_area",
-			"trigger": {
-				"auto": {
-					"name": "auto"
-				}
-			},
-			"margin": {
-				"top": 0,
-				"left": 0
-			},
-			"textcolor": {
-				"red": 46,
-				"blue": 209,
-				"green": 209
-			},
-			"size": {
-				"width": 200,
-				"height": 100
-			},
-			"scale": {
-				"width": 1,
-				"height": 1
-			},
-			"requirement": [
-				[
-					"auto"
-				]
-			]
-		},
+		 {
+            "type": "rectangle",
+            "tag": "title_background",
+            "fittocontent": false,
+            "anchor": 0,
+            "opacity": 0.2,
+            "parent": "title_area",
+            "trigger": {
+                "auto": {
+                    "name": "auto"
+                }
+            },
+            "margin": {
+                "top": 0,
+                "left": 0
+            },
+            "textcolor": {
+                "red": 209,
+                "blue": 46,
+                "green": 143
+            },
+            "size": {
+                "width": 400,
+                "height": 200
+            },
+            "scale": {
+                "width": 1,
+                "height": 1
+            },
+            "requirement": [
+                [
+                    "auto"
+                ]
+            ]
+        },
   ]
 }
 ```
@@ -772,47 +772,47 @@ Now we will add an text on that box :
 			]
 		},
 		
-		{
-			"type": "label",
-			"tag": "title_text",
-			"rotation": 0,
-			"anchor": 0,
-			"fittocontent": false,
-			"opacity": 1,
-			"parent": "title_area",
+		 {
+            "type": "label",
+            "tag": "title_text",
+            "rotation": 0,
+            "anchor": 0,
+            "fittocontent": false,
+            "opacity": 1,
+            "parent": "title_area",
 
-			"trigger": {
-				"auto": {
-					"name": "auto"
-				}
-			},
-			"margin": {
-				"left": 0,
-				"top": 75
-			},
-			"style": {
-				"fontsize": 30
-			},
-			"textcolor": {
-				"red": 255,
-				"blue": 255,
-				"green": 255
-			},
-			"size": {
-				"width": 100,
-				"height": 200
-			},
-			"scale": {
-				"width": 1,
-				"height": 1
-			},
-			"requirement": [
-				[
-					"auto"
-				]
-			],
-			"text": "Hello Cyberworld ! :) "
-		},
+            "trigger": {
+                "auto": {
+                    "name": "auto"
+                }
+            },
+            "margin": {
+                "left": 0,
+                "top": 0
+            },
+            "style": {
+                "fontsize": 30
+            },
+            "textcolor": {
+                "red": 255,
+                "blue": 255,
+                "green": 255
+            },
+            "size": {
+                "width": 400,
+                "height": 200
+            },
+            "scale": {
+                "width": 1,
+                "height": 1
+            },
+            "requirement": [
+                [
+                    "auto"
+                ]
+            ],
+            "text": "Hello Cyberworld ! :) "
+        },
   ]
 }
 ```
