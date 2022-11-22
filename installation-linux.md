@@ -8,7 +8,7 @@ There are a few things that you are going to need to before we get started; thes
 
 (The links will be below for the .Net Runtimes, the latest version of CET, the latest version of Native Setting Mod, and the latest version of CyberScript. Protontricks and ProtonUp-QT you can find in the Discover Software Center)
 
-CyberScript - https://www.nexusmods.com/cyberpunk2077/mods/1339?tab=files (download the latest version)
+CyberScript - https://www.nexusmods.com/cyberpunk2077/mods/6475?tab=files (download the latest version)
 
 Native Settings UI - https://www.nexusmods.com/cyberpunk2077/mods/3518?tab=files (download the latest version)
 
