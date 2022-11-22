@@ -35,10 +35,10 @@
 - 📖 Glossary
   
   - [Datapack Flags](datapack-flag.md)
-  - [Available Actions](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
-  - [Available Triggers](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/triggertemplate.json)
-  - [Characters List](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/CharacterTable.xlsx?raw=true)
-  - [Game Sounds](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/gamesounds.json)
+  - [Available Actions](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/actiontemplate.json)
+  - [Available Triggers](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/triggertemplate.json)
+  - [Characters List](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/CharacterTable.xlsx?raw=true)
+  - [Game Sounds](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/gamesounds.json)
   - [Districts](districts.md)
   - [Fast Travel Position and MarkRef](fasttravel-position.md)
   - [Phone Avatar List](phone-avatar-list.md)
