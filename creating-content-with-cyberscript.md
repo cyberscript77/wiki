@@ -13,6 +13,9 @@
 - [How to make a custom Phone Conversation ?](create-custom-phone-conversation.md)
 - [How to make a custom Fixer ?](create-custom-fixer.md)
 - [How to make a custom Faction?](create-custom-faction.md)
+- [How to make a custom shard?](create-custom-shard.md)
+- [How to make a custom tutorial?](create-custom-tutorial.md)
+- [How to make a custom codex entry?](create-custom-codex.md)
 
 # Advanced
 - [[Advanced] How to make a custom Function?](create-function.md)

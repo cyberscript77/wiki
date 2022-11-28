@@ -18,7 +18,7 @@
 # 📁 Introduction
 
 We assume here that you already [create an datapack folder](create-an-datapack-folder.md)
-<br>We will create .... Dialog (We named it but its still a choice..)!
+<br>We will create .... Phone Dialog !
 
 # 💬 Create a phone conversation
 
@@ -30,13 +30,13 @@ In this folder, create a JSON text file, like for example : amazingPhoneDialog.j
 
 Open it with your favorite text editor.
 
-**💀 Write the interact skeleton**
+**💀 Write the phone conversation skeleton**
 
 Now we have a blank page. But don't worry, we will fill it step by step.
 
-Let's talk about dialog structure :
+Let's talk about phone conversation structure :
 
-A dialog is an list of choice. a choice have several things :
+A phone conversation is :
 - A Tag
 - A speaker
 - a unlock field
@@ -45,7 +45,7 @@ A dialog is an list of choice. a choice have several things :
 Now let's make it in JSON :
 
 ```json
-[
+
 	{
        
         "tag": "amazingPhoneDialog",
@@ -53,7 +53,7 @@ Now let's make it in JSON :
 		"speaker": "Judy Alvarez",
 		"conversation": []
     }
-]
+
 ```
 
 This is the skeleton of our phone dialog. For resume what you see below : The choice is have "Judy Alvarez" as speaker, it's unlocked by default,
@@ -64,7 +64,7 @@ it have a empty conversation list.
 Lets fill it with one conversation :
 
 ```json
-[
+
 	{
        
         "tag": "amazingPhoneDialog",
@@ -85,7 +85,7 @@ Lets fill it with one conversation :
 		
 		]
     }
-]
+
 ```
 
 Here you have an new object : connversation. Let's describe it !
