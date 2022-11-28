@@ -20,9 +20,9 @@
   - [Create custom Fixer](create-custom-fixer.md)
   - [Create custom Faction](create-custom-faction.md)
   - [Create custom QuickHack](create-custom-quickhack.md)
-  - [Create custom shard?](create-custom-shard.md)
-  - [Create custom tutorial?](create-custom-tutorial.md)
-  - [Create custom codex entry?](create-custom-codex.md)
+  - [Create custom shard](create-custom-shard.md)
+  - [Create custom tutorial](create-custom-tutorial.md)
+  - [Create custom codex entry](create-custom-codex.md)
   - [Share your datapack](share-your-datapack.md)
 
 - 😎 Advanced
