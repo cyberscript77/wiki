@@ -69,7 +69,7 @@ Note that i use "\n", it means break line !
 Shard are called through an action or directly in shard journal menu if unlocked , under CyberScript Section.
 
 
-
+## CyberScript Core 1.0.8+
 you can follow this tutorial to make an interact : [How to make an custom Interact ?](create-custom-interact.md)
 
 There is a small example that will work :
