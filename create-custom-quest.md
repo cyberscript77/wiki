@@ -432,7 +432,6 @@ Example:
 
 ```
 - "data": A native game codex entry, you can find the list [here](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/codex.json)
-
 in our case, we can add for example Rogue:
 ```json
 "extra":
@@ -447,7 +446,6 @@ in our case, we can add for example Rogue:
 },
 
 ```
-
 - "custom" : a custom codex entry tag, when you click on it, it will open the custom codex entry by his tag.
 ```json
 "extra":
