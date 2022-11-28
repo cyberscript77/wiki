@@ -374,6 +374,12 @@ let's fill our JSON and describe it after.
             "title": "Go to the point",
             "tag": "amazingMission_01",
             "state": 2,
+			"unlock":[],
+			"extra":
+			{
+				"mappin":"amazingmission_mappin_01"
+			
+			},
             "isoptionnal": false,
             "trigger": {
                 "playeratposition": {
@@ -390,12 +396,8 @@ let's fill our JSON and describe it after.
             ],
             "action": [
                 {
-                    "name": "unlock_objective",
-                    "value": "amazingMission_02"
-                }, 
-                {
-                    "name": "track_objective",
-                    "value": "amazingMission_02"
+                    "name": "notify",
+                    "value": "You are at the good place !"
                 }
             ],
             "failaction": [ ],
@@ -414,6 +416,59 @@ Sooo... it add some texts, right ? But don't be scared, we are good !
 - "title" : the title of the objective
 - "tag" : the tag of the objective (cyberscript engine will know it as ) 
 - "state" : the default state of the objective, you can found all definition [here](https://nativedb.red4ext.com/gameJournalEntryState)
+- "unlock": list of tag of the objectives who will be unlocked when the objective is completed
+- "extra": extra data that will be showed at the right side of the quest in the journal
+
+	|
+	-->
+
+			it can be : 
+
+			- "mappin": tag of an exisiting mappin, when you click on it, it will open the map at the mappin coordinates.
+
+			Example:
+			```json
+			"extra":
+				{
+					"mappin":"amazingmission_mappin_01"
+				},
+
+			```
+
+
+
+			- "data": A native game codex entry, you can find the list [here](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/codex.json)
+
+			in our case, we can add for example Rogue:
+			```json
+			"extra":
+				{
+					"data":
+						[
+							{
+								"type":"gameJournalCodexEntry",
+								"value":"codex/characters/quests/rogue"
+							}
+						]
+				},
+
+			```
+
+			- "custom" : a custom codex entry tag, when you click on it, it will open the custom codex entry by his tag.
+			```json
+			"extra":
+				{
+					"custom":
+						[
+							{
+								"tag":"myamazingcodexentry"
+							}
+						]
+				},
+
+			```
+
+
 
 We put our at state 2 means Active (so you can track it by default, normal, it's the first one 😉)
 
@@ -442,27 +497,22 @@ so we put an trigger
 
 You can translate it by it will be fullfilled when player arrived at mappin amazingmission_mappin_01 in an range of 5 from amazingmission_mappin_01 location.
 
+
+
 we setup the requirement.
 
-then we set action that will be performed when trigger is fullfilled according to requirement :
+
+When the requirements are fullfilled according to triggers, Cyberscript will perform the "action" list.
+
+After theses actions finished to run, the objective amazingMission_01 will have the state 3(Succeeded)
+
+then we set in "unlock" list the objective(s) that will be unlocked when trigger is fullfilled according to requirement :
 
 ```json
-    {
-        "name": "unlock_objective",
-        "value": "amazingMission_02"
-    }, 
-    {
-        "name": "track_objective",
-        "value": "amazingMission_02"
-    }
+"unlock":["amazingMission_02"] 
 ```
 
-Here you have 2 actions.
-- first is unlock_objective. It will set the state of the targeted objective (by tag) to state 2 (active)
-- second is track_objective. It will track the targeted objective (by tag).
-
-then after theses actions finished to run, the objective amazingMission_01 will have the state 3(Succeeded)
-Now let's talk about the objective 2 !
+"amazingMission_02" is the tag of our next objective , let's talk about it !
 
 **2️⃣ Objective 2 : We want that spawn an group of Maelstrom bonks that will run to V with an hostile attitude and shout a battle cry.**
 
@@ -558,6 +608,7 @@ let's fill our JSON and describe it after.
                 "tag": "amazingMission_01",
                 "state": 2,
                 "isoptionnal": false,
+				"unlock":["amazingMission_02"],
                 "trigger": {
                     "playeratposition": {
                         "name": "entity_is_at_mappin_position",
@@ -571,13 +622,11 @@ let's fill our JSON and describe it after.
                         "playeratposition"
                     ]
                 ],
-                "action": [{
-                        "name": "unlock_objective",
-                        "value": "amazingMission_02"
-                    }, {
-                        "name": "track_objective",
-                        "value": "amazingMission_02"
-                    }
+                "action": [   
+				{
+                    "name": "notify",
+                    "value": "You are at the good place !"
+                }
                 ],
                 "failaction": [ ],
                 "resume_action": [ ]
@@ -585,6 +634,7 @@ let's fill our JSON and describe it after.
                 "title": "Kill the enemies",
                 "tag": "amazingMission_02",
                 "state": 1,
+				"unlock":["amazingMission_03"],
                 "isoptionnal": false,
                 "trigger": {
                     "trigger": {
@@ -665,15 +715,8 @@ let's fill our JSON and describe it after.
 					{
                         "name": "wait_second",
                         "value": 3
-                    }, 
-					{
-                        "name": "unlock_objective",
-                        "value": "amazingMission_03"
-                    }, 
-					{
-                        "name": "track_objective",
-                        "value": "amazingMission_03"
-                    }
+                    } 
+					
                 ],
                 "failaction": [ ],
                 "resume_action": [ ]
@@ -794,18 +837,12 @@ voice is an game voice name reference. you can found them all [here](possible-vo
 
 Now we want it wait 3 second again, to give time to them to comes to you. so we use action : wait_second with value at 3
 
-then we unlock objective 3 and track objective 3
+then we set in "unlock" objective 3 (tag "amazingMission_03")
 
 ```json
-{
-    "name": "unlock_objective",
-    "value": "amazingMission_03"
-}, 
-{
-    "name": "track_objective",
-    "value": "amazingMission_03"
-}
+"unlock":["amazingMission_03"] 
 ```
+
 
 All right ! Now we will go to the last objective !
 
@@ -900,6 +937,7 @@ let's fill our JSON :
         "objectives": [{
                 "title": "Go to the point",
                 "tag": "amazingMission_01",
+				"unlock":["amazingMission_02"],
                 "state": 2,
                 "isoptionnal": false,
                 "trigger": {
@@ -915,19 +953,18 @@ let's fill our JSON :
                         "playeratposition"
                     ]
                 ],
-                "action": [{
-                        "name": "unlock_objective",
-                        "value": "amazingMission_02"
-                    }, {
-                        "name": "track_objective",
-                        "value": "amazingMission_02"
-                    }
+                "action": [
+				   {
+                    "name": "notify",
+                    "value": "You are at the good place !"
+                }
                 ],
                 "failaction": [ ],
                 "resume_action": [ ]
             }, {
                 "title": "Fight the enemies",
                 "tag": "amazingMission_02",
+				"unlock":["amazingMission_03"],
                 "state": 1,
                 "isoptionnal": false,
                 "trigger": {
@@ -1009,14 +1046,6 @@ let's fill our JSON :
 					{
                         "name": "wait_second",
                         "value": 3
-                    }, 
-					{
-                        "name": "unlock_objective",
-                        "value": "amazingMission_03"
-                    }, 
-					{
-                        "name": "track_objective",
-                        "value": "amazingMission_03"
                     }
                 ],
                 "failaction": [],
@@ -1026,6 +1055,7 @@ let's fill our JSON :
             "title": "Kill them all !",
             "tag": "amazingMission_03",
             "state": 1,
+			"unlock":[],
             "isoptionnal": false,
             "trigger": {
                 "trigger": {
@@ -1149,6 +1179,7 @@ let's fill our JSON, we are close to the END !!!! I consider that now you know e
         "objectives": [{
                 "title": "Go to the point",
                 "tag": "amazingMission_01",
+				"unlock":["amazingMission_02"],
                 "state": 2,
                 "isoptionnal": false,
                 "trigger": {
@@ -1164,19 +1195,18 @@ let's fill our JSON, we are close to the END !!!! I consider that now you know e
                         "playeratposition"
                     ]
                 ],
-                "action": [{
-                        "name": "unlock_objective",
-                        "value": "amazingMission_02"
-                    }, {
-                        "name": "track_objective",
-                        "value": "amazingMission_02"
-                    }
+                "action": [
+				   {
+                    "name": "notify",
+                    "value": "You are at the good place !"
+                }
                 ],
                 "failaction": [],
                 "resume_action": []
             }, {
                 "title": "Fight the enemies",
                 "tag": "amazingMission_02",
+				"unlock":["amazingMission_03"],
                 "state": 1,
                 "isoptionnal": false,
                 "trigger": {
@@ -1258,15 +1288,8 @@ let's fill our JSON, we are close to the END !!!! I consider that now you know e
 					{
                         "name": "wait_second",
                         "value": 3
-                    }, 
-					{
-                        "name": "unlock_objective",
-                        "value": "amazingMission_03"
-                    }, 
-					{
-                        "name": "track_objective",
-                        "value": "amazingMission_03"
-                    }
+                    } 
+					
                 ],
                 "failaction": [],
                 "resume_action": []
@@ -1274,6 +1297,7 @@ let's fill our JSON, we are close to the END !!!! I consider that now you know e
             {
             "title": "Kill them all !",
             "tag": "amazingMission_03",
+			"unlock":[],
             "state": 1,
             "isoptionnal": false,
             "trigger": {
@@ -1338,9 +1362,10 @@ so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/pl
 
 the structure of the folder should be
 
-📂myAmazingDatapack
+
 
 ```structure
+📂myAmazingDatapack
 ├── 📃 desc.json
 └── 📁 mission
     └── 📃 amazingMission.json
