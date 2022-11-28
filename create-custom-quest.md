@@ -419,54 +419,48 @@ Sooo... it add some texts, right ? But don't be scared, we are good !
 - "unlock": list of tag of the objectives who will be unlocked when the objective is completed
 - "extra": extra data that will be showed at the right side of the quest in the journal
 
-	|
-	-->
+**Extra**
 
-			it can be : 
+it can be : 
+- "mappin": tag of an exisiting mappin, when you click on it, it will open the map at the mappin coordinates.
+Example:
+```json
+"extra":
+{
+	"mappin":"amazingmission_mappin_01"
+},
 
-			- "mappin": tag of an exisiting mappin, when you click on it, it will open the map at the mappin coordinates.
+```
+- "data": A native game codex entry, you can find the list [here](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/codex.json)
 
-			Example:
-			```json
-			"extra":
-				{
-					"mappin":"amazingmission_mappin_01"
-				},
+in our case, we can add for example Rogue:
+```json
+"extra":
+{
+	"data":
+		[
+			{
+				"type":"gameJournalCodexEntry",
+				"value":"codex/characters/quests/rogue"
+			}
+		]
+},
 
-			```
+```
 
+- "custom" : a custom codex entry tag, when you click on it, it will open the custom codex entry by his tag.
+```json
+"extra":
+{
+	"custom":
+		[
+			{
+				"tag":"myamazingcodexentry"
+			}
+		]
+},
 
-
-			- "data": A native game codex entry, you can find the list [here](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/codex.json)
-
-			in our case, we can add for example Rogue:
-			```json
-			"extra":
-				{
-					"data":
-						[
-							{
-								"type":"gameJournalCodexEntry",
-								"value":"codex/characters/quests/rogue"
-							}
-						]
-				},
-
-			```
-
-			- "custom" : a custom codex entry tag, when you click on it, it will open the custom codex entry by his tag.
-			```json
-			"extra":
-				{
-					"custom":
-						[
-							{
-								"tag":"myamazingcodexentry"
-							}
-						]
-				},
-
-			```
+```
 
 
 
