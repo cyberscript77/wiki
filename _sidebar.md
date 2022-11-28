@@ -11,11 +11,12 @@
   
   - [Scripting Basics](scripting-basics.md)
   - [Creating content with CyberScript](creating-content-with-cyberscript.md)
-  - [Create an datapack folder](create-an-datapack-folder.md)
+  - [Create a datapack folder](create-an-datapack-folder.md)
   - [Create custom Quest](create-custom-quest.md)
   - [Create custom Interact](create-custom-interact.md)
   - [Create custom Event](create-custom-event.md)
   - [Create custom Choice](create-custom-choice.md)
+  - [Create custom Phone Conversation](create-custom-phone-conversation.md)
   - [Create custom Fixer](create-custom-fixer.md)
   - [Create custom Faction](create-custom-faction.md)
   - [Create custom QuickHack](create-custom-quickhack.md)
