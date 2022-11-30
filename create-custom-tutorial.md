@@ -105,12 +105,17 @@ There is a small example that will work :
 	],
 	"action": [
 	{
-            "name": "open_help",
-            "tag": "amazingtutorial"
+           	"name": "open_help",
+			"tag": "amazingtutorial",
+			"ismodal": true,
+			"closeatinput": true,
+			"pausegame": true,
+			"isblocking": true,
+			"popupposition": 2,
         }, ]
 }
 ```
-
+TIPS : [PopupPosition](https://nativedb.red4ext.com/gamePopupPosition)
 
 You will have a tutorial popup that will open ! 
 
