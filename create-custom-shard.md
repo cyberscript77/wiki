@@ -69,7 +69,6 @@ Note that i use "\n", it means break line !
 Shard are called through an action or directly in shard journal menu if unlocked , under CyberScript Section.
 
 
-## CyberScript Core 1.0.8+
 you can follow this tutorial to make an interact : [How to make an custom Interact ?](create-custom-interact.md)
 
 There is a small example that will work :
@@ -92,10 +91,54 @@ There is a small example that will work :
 		]
 	],
 	"action": [
-	{
+		
+		 {
+			"name": "shard_notification",
+			"title": "placeholder",
+			"desc": "placeholder",
+			"duration": 4,
+			"iscrypted": false,
+			"shard": "myAmazingShard",
+			"helper": "This action will make display a shard notification. shard is optional (leave empty if not need, if not empty it will load an custom shard in the popup)",
+			"helperTitle": "UI : Shard Notification"
+		},
+		
+		
+		]
+}
+```
+
+
+You will have a shard notification that will show. then you click on read shard for open an popup that show it ! 
+
+## CyberScript Core 1.0.8+
+Prior to this version, you can directly open an popup that will show the shard content
+
+```json
+{
+	"name": "Test My Amazing Shard",
+	"tag": "myamazinginteractshard",
+	"display": "event_interact",
+	"type": "interact",
+	"sorttag": "none",
+	"trigger": {
+		"mytrigger":{
+		"name": "auto"
+	    }
+	},
+	"requirement": [
+		[
+		"mytrigger"
+		]
+	],
+	"action": [
+		{
             "name": "open_shard",
             "tag": "myAmazingShard"
-        }, ]
+        }, 
+		
+		
+		]
 }
 ```
 
