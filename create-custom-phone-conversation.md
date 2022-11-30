@@ -347,6 +347,8 @@ First, let's take a look about message structure :
 				
 	```
 
+
+
 It contains fields : 
 
 - "tag":tag of the conversation
