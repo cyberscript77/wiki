@@ -12,7 +12,7 @@ This key will allow you to go through current selected Datapack's interacts if t
 
 ![alt 2](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/2.jpg)
 
-Use the interact "Open Datapack Group UI Menu" to open the menu and select the current active Datapack
+Use the interact "Select active Interactions Group" to open the menu and select the current active Datapack
 
 ![alt 3](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/3.jpg)
 
