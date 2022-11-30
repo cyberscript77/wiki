@@ -51,7 +51,7 @@ Now let's make it in JSON :
 	{
 		"tag": "myAmazingShard",
 		"title": "My amazing Shard",
-		"description": "Cyberscript is amazing \n How I lived before know it ?",
+		"description": "Cyberscript is amazing \nHow I lived before know it ?",
 		"crypted": false,
 		"new": true,
 		"locked": false
