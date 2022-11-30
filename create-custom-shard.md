@@ -64,7 +64,7 @@ Note that i use "\n", it means break line !
 
 
 
-# Make an interact that will call your phone dialog in an sms popup !
+# Make an interact that will call your shard in a popup !
 
 Shard are called through an action or directly in shard journal menu if unlocked , under CyberScript Section.
 
