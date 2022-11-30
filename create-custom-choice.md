@@ -153,6 +153,151 @@ Description is "Take the red pills" Trigger is auto (automatically unlocked) req
 
 - a subtitle that will show "Morpheus : Welcome to the matrix, Neo !"
 
+# Optionnal Fields
+
+## Icon 
+```json
+[
+	{
+        "Desc": "Time to make a choice, choomba !",
+        "speaker": {
+            "value": "Morpheus",
+            "way": "speak"
+        },
+        "Tag": "my_amazing_choice",
+        "trigger": {},
+        "requirement": [],
+        "options": [
+			{
+                "Description": "Take the blue pills",
+"icon":"FlatheadIcon",
+                "action": [
+					{
+						"name": "subtitle",
+						"title": "Make good dreams, Neo !",
+						"type": 1,
+						"target": "player",
+						"speaker": "Morpheus",
+						"duration": 2,
+						"helper": "This action will fire an random subtitle, it act live wait for second",
+						"helperTitle": "Dialog : run random subtitle"
+					}
+                ],
+                "trigger": {
+                    "auto": {
+                        "name": "auto"
+                    }
+                },
+                "requirement": [["auto"]]
+            }, 
+            {
+                "Description": "Take the red pills",
+                 "icon":"FlatheadIcon",
+                "action": [
+					{
+						"name": "subtitle",
+						"title": "Welcome to the matrix, Neo !",
+						"type": 1,
+						"target": "player",
+						"speaker": "Morpheus",
+						"duration": 2,
+						"helper": "This action will fire an random subtitle, it act live wait for second",
+						"helperTitle": "Dialog : run random subtitle"
+					}
+                ],
+                "trigger": {
+                    "auto": {
+                        "name": "auto"
+                    }
+                },
+                "requirement": [["auto"]]
+            }
+        ]
+    }
+]
+```
+- icon (for options), you can find the list of icon  [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/ChoiceIcons.json)
+
+
+## Style 
+
+```json
+[
+	{
+        "Desc": "Time to make a choice, choomba !",
+        "speaker": {
+            "value": "Morpheus",
+            "way": "speak"
+        },
+        "Tag": "my_amazing_choice",
+        "trigger": {},
+        "requirement": [],
+        "options": [
+			{
+                "Description": "Take the blue pills",
+"icon":"FlatheadIcon",
+                "action": [
+					{
+						"name": "subtitle",
+						"title": "Make good dreams, Neo !",
+						"type": 1,
+						"target": "player",
+						"speaker": "Morpheus",
+						"duration": 2,
+						"helper": "This action will fire an random subtitle, it act live wait for second",
+						"helperTitle": "Dialog : run random subtitle"
+					}
+                ],
+                "trigger": {
+                    "auto": {
+                        "name": "auto"
+                    }
+                },
+                "requirement": [["auto"]],
+				"style":{
+					"color":{
+						"red":255,
+						"green":0,
+						"blue":0
+					
+					}
+				
+				},
+            }, 
+            {
+                "Description": "Take the red pills",
+                 "icon":"FlatheadIcon",
+                "action": [
+					{
+						"name": "subtitle",
+						"title": "Welcome to the matrix, Neo !",
+						"type": 1,
+						"target": "player",
+						"speaker": "Morpheus",
+						"duration": 2,
+						"helper": "This action will fire an random subtitle, it act live wait for second",
+						"helperTitle": "Dialog : run random subtitle"
+					}
+                ],
+                "trigger": {
+                    "auto": {
+                        "name": "auto"
+                    }
+                },
+                "requirement": [["auto"]]
+            }
+        ]
+    }
+]
+```
+
+
+You can add style to your interact.
+- color : color of the text when unselect or color of the background when select
+
+
+
+
 # Make an interact that will call your dialog !
 
 dialog are called through an action.
