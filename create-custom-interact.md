@@ -38,7 +38,7 @@ An interact script has several things :
 - A name
 - A tag
 - A display
-- a icon, you can find the list of icon  [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/ChoiceIcons.json)
+
 - several triggers (what will unlock the interact)
 - triggers requirement (in which order trigger need to be fulfilled to unlock the interact)
 - an action list : some action you will perform when you hit the interact key
@@ -50,8 +50,9 @@ Now let's make it into a JSON :
 	"name": "My Amazing Interact",
 	"tag": "myamazinginteract",
 	"display": "event_interact",
-	"icon":"EngineeringIcon",
+	
 	"type": "interact",
+	
 	"sorttag": "none",
 	"trigger": {
 		
@@ -155,6 +156,79 @@ lets make fill our json and describe it
 ```
 
 Here we use the action notify that will display an in-game notification and the value will be Hello World !<hr>
+
+# Optionnal Fields
+
+## Icon 
+```json
+{
+	"name": "My Amazing Interact",
+	"tag": "myamazinginteract",
+	"display": "event_interact",
+	"icon":"BarIcon",
+	"type": "interact",
+	
+	"sorttag": "none",
+	"trigger": {
+		
+	},
+	"requirement": [
+		[ ]
+	],
+	"action": [ ]
+}
+```
+- a icon, you can find the list of icon  [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/ChoiceIcons.json)
+
+
+## Style 
+
+```json
+{
+	"name": "My Amazing Interact",
+	"tag": "myamazinginteract",
+	"display": "event_interact",
+	"style":{
+		"textcolor":{
+			"red":0,
+			"green":0,
+			"blue":255
+		
+		},
+		"bgcolor":{
+			"red":255,
+			"green":0,
+			"blue":0
+		
+		},
+		"iconcolor":{
+			"red":0,
+			"green":255,
+			"blue":0
+		
+		}
+	
+	},
+	"type": "interact",
+	
+	"sorttag": "none",
+	"trigger": {
+		
+	},
+	"requirement": [
+		[ ]
+	],
+	"action": [ ]
+}
+```
+
+
+You can add style to your interact.
+- textcolor : color of the text
+- bgcolor : color of the icon background (only if you set an icon before)
+- iconcolor : color of the icon  (only if you set an icon before)
+
+
 
 # Test your interact !
 
