@@ -117,7 +117,7 @@ the structure of the folder should be
 ├── 📁 shard
 |    └── 📃 myAmazingShard.json
 └── 📁 interact
-     └── 📃 myamazinginteractphonedialog.json
+     └── 📃 myamazinginteractshard.json
 ```
 
 Select the datapack "myAmazingDatapack" in cycle interact ([What are you talking about ?](cet-key-binding.md))
