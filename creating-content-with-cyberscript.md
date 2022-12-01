@@ -16,6 +16,7 @@
 - [How to make a custom shard?](create-custom-shard.md)
 - [How to make a custom tutorial?](create-custom-tutorial.md)
 - [How to make a custom codex entry?](create-custom-codex.md)
+- [How to make a custom Garage entry?](create-custom-garage-entry.md)
 
 # Advanced
 - [[Advanced] How to make a custom Function?](create-function.md)
