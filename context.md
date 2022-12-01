@@ -128,11 +128,23 @@ value : "Athletics"
 value : "Regeneration"
 - key : "attribute"<br>
 value : "Body"
+- key : "current_gang"
 
 ```json
 "type": "player",
 "key":"skill",
 "value ":"Athletics"
+```
+
+
+# "current_district"
+- tag
+- state (0 - Friendly, 1 - Neutral, 2 - Hostile) 
+- subdistrict (return subdistrict enum)
+
+```json
+"type": "current_district",
+"prop":"tag"
 ```
 
 # "corpo" :
@@ -367,7 +379,7 @@ Will take the name of the rival of the Mox in the current player district
 "prop":"x"
 ```
 
-# "fixer" :
+# "fixer" or "current_fixer"(if not null) :
 
 - Name
 - LOC_X
@@ -384,7 +396,7 @@ Will take the name of the rival of the Mox in the current player district
 "prop":"LOC_X"
 ```
 
-# "place" :
+# "place" or "current_place" (if not nothing) :
 
 - name
 - tag
@@ -408,6 +420,21 @@ Will take the name of the rival of the Mox in the current player district
 "prop":"EnterY"
 ```
 
+# "current_room" (if not nothing) :
+
+- posX
+- posY
+- posZ
+- range
+- Zrange
+- name
+- tag
+
+```json
+"type": "current_room",
+"prop":"tag"
+```
+
 # "poi" :
 
 - x
@@ -423,6 +450,24 @@ Will take the name of the rival of the Mox in the current player district
 "type": "poi",
 "tag":"mytag",
 "prop":"yaw"
+```
+
+# "current_poi": (if not nothing)
+
+- x
+- y
+- z
+- yaw
+- pitch
+- roll
+- Tag
+- subdistrict
+- parent.isFor
+- parent.tag
+
+```json
+"type": "current_poi",
+"prop":"parent.isFor"
 ```
 
 # "node":
