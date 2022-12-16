@@ -460,14 +460,15 @@ Will take the name of the rival of the Mox in the current player district
 - yaw
 - pitch
 - roll
-- Tag
+- tag
+- district
 - subdistrict
-- parent.isFor
-- parent.tag
+- type
+
 
 ```json
 "type": "current_poi",
-"prop":"parent.isFor"
+"prop":"type"
 ```
 
 # "node":
