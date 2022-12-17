@@ -695,7 +695,7 @@ This one is complex. You can define an list of item. Each item is a context.
 
 **Random :**
 
-If in the tag field you put "random" for faction/ mappin /fixer /place /poi / node /npc, it will choose randomly an object of the list.
+If in the tag field you put "random" for faction/ mappin /fixer /place  / node /npc, it will choose randomly an object of the list.
 
 **Trigger and requirement**
 
