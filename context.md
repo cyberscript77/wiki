@@ -447,18 +447,18 @@ Will take the name of the rival of the Mox in the current player district
 - subdistrict
 
 Argument : 
-position_tag
-position_poi_district
-position_poi_subdistrict
-position_poi_is_for_car
-position_poi_type
-position_poi_from_position
-position_range
-position_poi_from_position_x
-position_poi_from_position_y
-position_poi_from_position_z
-position_poi_search
-position_poi_searchdistance
+- position_tag
+- position_poi_district
+- position_poi_subdistrict
+- position_poi_is_for_car
+- position_poi_type
+- position_poi_from_position
+- position_range
+- position_poi_from_position_x
+- position_poi_from_position_y
+- position_poi_from_position_z
+- position_poi_search
+- position_poi_searchdistance
 
 ```json
 "type": "poi",
