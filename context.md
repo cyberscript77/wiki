@@ -465,20 +465,18 @@ Argument :
 "tag":"mytag",
 "prop":"yaw",
 "argument":{
-"position_tag":"",
-"position_poi_district":"",
-"position_poi_subdistrict":"",
-"position_poi_is_for_car":false,
-"position_poi_type":77,
-"position_poi_from_position":true,
-"position_range":50,
-"position_poi_from_position_x":0,
-"position_poi_from_position_y":0,
-"position_poi_from_position_z":0,
-"position_poi_search":"type",
-"position_poi_searchdistance":"random"
-
-
+	"position_tag":"",
+	"position_poi_district":"",
+	"position_poi_subdistrict":"",
+	"position_poi_is_for_car":false,
+	"position_poi_type":77,
+	"position_poi_from_position":true,
+	"position_range":50,
+	"position_poi_from_position_x":0,
+	"position_poi_from_position_y":0,
+	"position_poi_from_position_z":0,
+	"position_poi_search":"type",
+	"position_poi_searchdistance":"random"
 }
 ```
 
