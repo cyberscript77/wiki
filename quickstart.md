@@ -22,7 +22,7 @@ There are two ways to download.
 
 ?> **Download from any one of the link**<br><br>▶️ Link to download from our Nexus page https://www.nexusmods.com/cyberpunk2077/mods/6475<br>▶️ Link to download from our github repository https://github.com/cyberscript77/release<br>🥺 Don't know how to download from github ? [Follow this guide](download-from-github.md)
 
-#Prior to Cyberscript Core 2.0, please download animation archive as well (available on Nexus too, under optional files). Extract it in Cyberpunk game folder(like every archive mods)
+# Prior to Cyberscript Core 2.0, please download animation archive as well (available on Nexus too, under optional files). Extract it in Cyberpunk game folder(like every archive mods)
 
 
 After downloading our **CyberScript Core**, time to experience it 😋. Choose your operating system and follow the guide.
