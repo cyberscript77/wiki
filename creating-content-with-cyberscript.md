@@ -2,6 +2,11 @@
 
 > Learn to create your own content with cyberscript here.
 
+
+# Example
+- [Datapack Examples of the wiki](https://github.com/cyberscript77/datapack/raw/main/datapacks/myamazingdatapack.zip)
+
+
 # Starting
  - [Create a datapack folder](create-an-datapack-folder.md)
 
