@@ -147,6 +147,20 @@ value : "Body"
 "prop":"tag"
 ```
 
+
+# "shard"
+- tag
+- title
+- description
+- crypted
+- new
+- locked
+
+```json
+"type": "shard",
+"prop":"description"
+```
+
 # "corpo" :
 
 - tag
