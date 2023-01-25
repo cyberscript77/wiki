@@ -52,5 +52,4 @@
 
 - 🤖 Misc
   - [Troubleshooting](troubleshooting.md)
-  - [Download from Github](download-from-github.md)
   - [Work In Progress](work-in-progress.md)
