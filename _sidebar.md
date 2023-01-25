@@ -40,10 +40,10 @@
 - 📖 Glossary
   
   - [Datapack Flags](datapack-flag.md)
-  - [Available Actions](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/actiontemplate.json)
-  - [Available Triggers](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/triggertemplate.json)
-  - [Characters List](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/CharacterTable.xlsx?raw=true)
-  - [Game Sounds](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/gamesounds.json)
+  - [Available Actions](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/actiontemplate.json)
+  - [Available Triggers](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/triggertemplate.json)
+  - [Characters List](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/CharacterTable.xlsx?raw=true)
+  - [Game Sounds](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/gamesounds.json)
   - [Districts](districts.md)
   - [Fast Travel Position and MarkRef](fasttravel-position.md)
   - [Phone Avatar List](phone-avatar-list.md)
