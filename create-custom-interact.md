@@ -178,7 +178,7 @@ Here we use the action notify that will display an in-game notification and the 
 	"action": [ ]
 }
 ```
-- a icon, you can find the list of icon  [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/ChoiceIcons.json)
+- a icon, you can find the list of icon  [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/ChoiceIcons.json)
 
 
 ## Style 

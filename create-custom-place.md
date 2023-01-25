@@ -477,7 +477,7 @@ Example:
 },
 
 ```
-- "data": A native game codex entry, you can find the list [here](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/data/codex.json)
+- "data": A native game codex entry, you can find the list [here](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/codex.json)
 in our case, we can add for example Rogue:
 ```json
 "extra":
