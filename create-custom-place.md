@@ -125,7 +125,7 @@ For this example, we want the quest can be unlocked when you see Rogue as Fixer 
 
 So let's add a trigger "fixer"
 
-you can found all trigger definitions [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/triggertemplate.json)
+you can found all trigger definitions [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/triggertemplate.json)
 
 **The trigger for fixer is :**
 ```json
@@ -185,7 +185,7 @@ This setup the mission.
 
 We will fill the list of trigger_action
 
-We will fill it with action. You can find every possible action [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
+We will fill it with action. You can find every possible action [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/actiontemplate.json)
 
 lets fill our json and describe every action
 
@@ -783,7 +783,7 @@ let's describe it :
 - appearance : useful if you want to setup an specific appearance (like naked judy 🐷) but in our case, we don't need.
 - create_group_if_not_exist :false, don't care about it. But with this, you don't need to use create_group action before, it will create an group automatically.
 - source : npc. there is several source but npc means we will indicate to the mod directly what model of npc we want spawn.
-- source_tag : we set the model name (TweakID) of the one that we want : Character.cpz_maelstrom_grunt2_ranged2_ajax_wa. you can found all possible model [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/CharacterTable.xlsx?raw=true)
+- source_tag : we set the model name (TweakID) of the one that we want : Character.cpz_maelstrom_grunt2_ranged2_ajax_wa. you can found all possible model [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/CharacterTable.xlsx?raw=true)
 
 **don't care about :**
 

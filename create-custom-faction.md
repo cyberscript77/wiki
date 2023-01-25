@@ -48,7 +48,7 @@ an Faction have several things :
 - A list of SpawnableVehicule TweakID : all vehicle model that can be in this faction. Useful when you use spawn_vehicle action that have faction as source. you can find the list here
 - A VIP object list. You can define some VIP of this faction. They will be available as spawn option if your affinity with this faction - is higher or equal to the VIP score.
 
-You can find every character [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/CharacterTable.xlsx?raw=true). Use the Name Names (for example use Judy, no Character.Judy).
+You can find every character [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/CharacterTable.xlsx?raw=true). Use the Name Names (for example use Judy, no Character.Judy).
 
 A VIP object look like this
 

@@ -125,7 +125,7 @@ For this example, we want that the fixer is always unlocked
 
 So let's add an trigger definition named "always_enable" who use the trigger "auto"
 
-you can found all trigger definition [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/triggertemplate.json)
+you can found all trigger definition [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/triggertemplate.json)
 
 All right, we have setup an condition for getting the event!
 
@@ -137,7 +137,7 @@ We will fill the list of spawn_action
 
 We will fill it with action.
 
-You can find every possible action [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
+You can find every possible action [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/actiontemplate.json)
 
 lets make fill our json and describe it
 
@@ -199,7 +199,7 @@ We will fill the list of despawn_action
 
 We will fill it with action.
 
-You can find every possible action [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)
+You can find every possible action [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/actiontemplate.json)
 
 lets make fill our json and describe it
 

@@ -141,7 +141,7 @@ Lets describe them
 
 **Option 1**
 
-Description is "Take the blue pills" Trigger is auto (automatically unlocked) requirement require only auto trigger it have an list of action that contains one action (you can find the list [here](https://github.com/donk7413/cybermod_release_repository/blob/main/quest_mod/data/db/actiontemplate.json)):
+Description is "Take the blue pills" Trigger is auto (automatically unlocked) requirement require only auto trigger it have an list of action that contains one action (you can find the list [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/actiontemplate.json)):
 
 Icon is : FlatheadIcon, you can find the list of icon  [here](https://raw.githubusercontent.com/cyberscript77/release/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/ChoiceIcons.json)
 
