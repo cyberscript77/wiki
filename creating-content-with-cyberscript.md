@@ -10,6 +10,9 @@
 # Starting
  - [Create a datapack folder](create-an-datapack-folder.md)
 
+# Cyberscript Studio
+- [Download Cyberscript Studio](https://www.nexusmods.com/cyberpunk2077/mods/7214)
+
 # Basics
 - [How to make a custom Quest ?](create-custom-quest.md)
 - [How to make a custom Interact ?](create-custom-interact.md)

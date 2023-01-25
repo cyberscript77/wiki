@@ -8,7 +8,7 @@
   - [Multiplayer](multiplayer.md)
 
 - ⚙️ Scripting
-  
+  - [Download Cyberscript Studio](https://www.nexusmods.com/cyberpunk2077/mods/7214)
   - [Scripting Basics](scripting-basics.md)
   - [Creating content with CyberScript](creating-content-with-cyberscript.md)
   - [Create a datapack folder](create-an-datapack-folder.md)
