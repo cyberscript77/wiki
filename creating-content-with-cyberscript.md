@@ -4,7 +4,8 @@
 
 
 # Example
-- [Datapack Examples of the wiki](https://github.com/cyberscript77/datapack/raw/main/datapacks/myamazingdatapack.zip)
+- [Datapack Examples of the wiki](https://github.com/cyberscript77/wiki/raw/main/resources/myamazingdatapack.zip)
+- [Datapack Animation Workshop](https://github.com/cyberscript77/wiki/raw/main/resources/anim-workshop.zip)
 
 
 # Starting
