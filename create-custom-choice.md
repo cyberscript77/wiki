@@ -2,7 +2,7 @@
 
 > In this page, you will be able to follow an small tutorials about making your own choice in JSON and play it with Cyberscript.
 
-**It will be an long but fully complete tutorial. At the end you will be able to see the described dialog or choice.**
+**It will be an long but fully complete tutorial. At the end you will be able to see the described choice.**
 
 **To start, you need:**
 - 📄 Text editor : VS code, Notepad (hard but possible) or Notepad ++ (my favorite). Along with Notepad++ you need a Json Plugin for it as well.
@@ -18,13 +18,13 @@
 # 📁 Introduction
 
 We assume here that you already [create an datapack folder](create-an-datapack-folder.md)
-<br>We will create .... Dialog (We named it but its still a choice..)!
+<br>We will create .... Choice!
 
-# 💬 Create a Dialog
+# 💬 Create a Choice
 
 **📂 Setup the folder**
 
-First : in your datapack folder, create a folder named "dialog". It will contain every dialog script of your datapack. Logic !
+First : in your datapack folder, create a folder named "choice". It will contain every choice script of your datapack. Logic !
 
 In this folder, create a JSON text file, like for example : amazingChoice.json
 
@@ -34,9 +34,9 @@ Open it with your favorite text editor.
 
 Now we have a blank page. But don't worry, we will fill it step by step.
 
-Let's talk about dialog structure :
+Let's talk about choice structure :
 
-A dialog is an list of choice. a choice have several things :
+A choice is an list of choice. a choice have several things :
 - A Desc
 - A speaker
 - a Tag
@@ -345,7 +345,7 @@ the structure of the folder should be
 
 ```structure
 ├── 📃 desc.json
-├── 📁 dialog
+├── 📁 choice
 |    └── 📃 amazingChoice.json
 └── 📁 interact
      └── 📃 amazingInteract.json
