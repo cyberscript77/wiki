@@ -35,6 +35,12 @@ I'm using
 - [Windows 10, 11](installation.md)
 - [Linux Os or Steam Deck](installation-linux.md)
 
+## Playing with CyberScript
+You can get any mods that using cyberscript by looking in *requirements* -> *mods requiring this
+file*
+section on the Nexus webpage
+
+
 
 ## Redmod troubleshooting
 If you get issue like AV don't show, no sound, no entity spawn or something like this, it's because
