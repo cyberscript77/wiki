@@ -36,7 +36,7 @@ I'm using
 - [Linux Os or Steam Deck](installation-linux.md)
 
 
-##Redmod troubleshooting
+## Redmod troubleshooting
 If yiu get issue like AV don't show, no sound, no entity spawn or something like this, it's because
 Vortex Redmod don't deploy cyberscript mods yet.
 
@@ -53,6 +53,5 @@ Then
 ?> redMod.exe deploy<br/> pause
 
 - save the file and run it
-- 
 
-you may have to do it everytime that you add a new redmod mod from vortex
+⚠️ You may have to do it everytime that you add a new redmod mod from vortex ⚠️
