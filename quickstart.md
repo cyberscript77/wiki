@@ -38,7 +38,8 @@ I'm using
 ## Playing with CyberScript
 You can get any mods that using cyberscript by looking in *requirements* -> *mods requiring this
 file*
-section on the Nexus webpage
+section on the Nexus webpage.
+CyberScript alone will do nothing since it's a framework !
 
 
 
