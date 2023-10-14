@@ -34,3 +34,26 @@ After downloading our **CyberScript Core**, time to experience it 😋. Choose y
 I'm using 
 - [Windows 10, 11](installation.md)
 - [Linux Os or Steam Deck](installation-linux.md)
+
+
+##Redmod troubleshooting
+If yiu get issue like AV don't show, no sound, no entity spawn or something like this, it's because
+Vortex Redmod don't deploy cyberscript mods yet.
+
+Go to (game root folder)/r6/cache/modded/mods.json and put all cyberscript based mod to
+**"enabled":true**
+
+Then
+
+- go to your game root folder
+- go to tools - > redmod -> bin 
+- create a txt file named *start.bat*
+- edit it with notepad
+- copy this 
+?> redMod.exe deploy
+ pause
+
+- save the file and run it
+- 
+
+you may have to do it everytime that you add a new redmod mod from vortex
