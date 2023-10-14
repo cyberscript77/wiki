@@ -12,7 +12,7 @@ When enabling any datapack, whether it be in bunches or one at a time, ALWAYS GO
 2 - Go to "Mods"  <br/>
 3 - Go to "Cyberscript Datapack Manager" Tabs  <br/>
 4 - Enable the datapack you need/want  <br/>
-
+5 - Go to "Cyberscript settings" Tabs and hit REFRESH DATAPACK CACHE at the bottom.
 Close Pause Menu
 
 then follow this [CET Keybinding configuration](cet-key-binding.md)
