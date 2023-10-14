@@ -54,4 +54,4 @@ Then
 
 - save the file and run it
 
-⚠️ You may have to enable mods and run *start.bat* everytime that you add a new redmod mod from vortex ⚠️
+⚠️ You may have to enable mods from *mods.json* and run *start.bat* everytime that you add a new redmod mod from vortex ⚠️
