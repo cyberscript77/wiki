@@ -8,6 +8,7 @@
 
 - [Native settings mod](https://www.nexusmods.com/cyberpunk2077/mods/3518).
 - [Cyber Engine tweaks (CET)](https://www.nexusmods.com/cyberpunk2077/mods/107).
+- [Codeware](https://www.nexusmods.com/cyberpunk2077/mods/7780).
 
 ?> **Read their guide to install the requirements** and make sure you have the latest or updated version of these requirements.
 
