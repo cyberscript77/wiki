@@ -50,7 +50,7 @@ Then
 - create a txt file named *start.bat*
 - edit it with notepad
 - copy this 
-?> redMod.exe deploy<br/> pause
+> redMod.exe deploy<br/> pause
 
 - save the file and run it
 
