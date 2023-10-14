@@ -37,7 +37,7 @@ I'm using
 
 
 ## Redmod troubleshooting
-If yiu get issue like AV don't show, no sound, no entity spawn or something like this, it's because
+If you get issue like AV don't show, no sound, no entity spawn or something like this, it's because
 Vortex Redmod don't deploy cyberscript mods yet.
 
 Go to (game root folder)/r6/cache/modded/mods.json and put all cyberscript based mod to
@@ -54,4 +54,4 @@ Then
 
 - save the file and run it
 
-⚠️ You may have to do it everytime that you add a new redmod mod from vortex ⚠️
+⚠️ You may have to enable mods and run *start.bat* everytime that you add a new redmod mod from vortex ⚠️
