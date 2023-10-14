@@ -9,6 +9,8 @@
 - [Native settings mod](https://www.nexusmods.com/cyberpunk2077/mods/3518).
 - [Cyber Engine tweaks (CET)](https://www.nexusmods.com/cyberpunk2077/mods/107).
 - [Codeware](https://www.nexusmods.com/cyberpunk2077/mods/7780).
+- [CyberScript Core Animation Archive](https://www.nexusmods.com/cyberpunk2077/mods/7691).
+- [Redmod](https://www.youtube.com/watch?v=NVKVuzIW5WY&t=190s).
 
 ?> **Read their guide to install the requirements** and make sure you have the latest or updated version of these requirements.
 
