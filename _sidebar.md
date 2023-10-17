@@ -2,13 +2,19 @@
 
   - [Quick start](quickstart.md)
   - [Cycle throught Interact](cycle-throught-interact.md)
-  - [Playing with CyberScript](playing-with-cyberscript.md)
+
 
 - ⚙️ Scripting
-  - [Download Cyberscript Studio](https://www.nexusmods.com/cyberpunk2077/mods/7214)
   - [Scripting Basics](scripting-basics.md)
   - [Creating content with CyberScript](creating-content-with-cyberscript.md)
   - [Create a datapack folder](create-an-datapack-folder.md)
+  
+ - 🪄 Cyberscript Studio Scripting
+ - [Download Cyberscript Studio](https://www.nexusmods.com/cyberpunk2077/mods/7214)
+ - [Using Studio for create a quest](work-in-progress.md)
+
+ - ⚙️ Manual Text Scripting
+  
   - [Create custom Quest](create-custom-quest.md)
   - [Create custom Interact](create-custom-interact.md)
   - [Create custom Event](create-custom-event.md)
