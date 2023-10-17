@@ -53,7 +53,7 @@ CyberScript alone will do nothing since it's a framework !
 
 Mods powered by Cyberscript can only work in cyberscript framework.
 
-When enabling any mods, whether it be in bunches or one at a time, ALWAYS GO TO CyberScript settings to `REFRESH mod CACHE`.
+When enabling any mods, whether it be in bunches or one at a time, ALWAYS GO TO CyberScript settings to `REFRESH MODS CACHE`.
 
 # Enable a Cyberscript Powered Mod
 
@@ -61,7 +61,7 @@ When enabling any mods, whether it be in bunches or one at a time, ALWAYS GO TO 
 2 - Go to "Mods"  <br/>
 3 - Go to "Cyberscript Mods Manager" Tabs  <br/>
 4 - Enable the mods you need/want  <br/>
-5 - Go to "Cyberscript settings" Tabs and hit "REFRESH mod CACHE" at the bottom.
+5 - Go to "Cyberscript settings" Tabs and hit "REFRESH MODS CACHE" at the bottom.
 6 - Close Pause Menu
 
 
