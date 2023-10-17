@@ -4,7 +4,7 @@
 
 <span style="color:#00FA9A; font-weight:bold;">⚠️ We support Vortex mod manager</span>.
 
-## Requirements
+## 1 - Requirements
 
 - [Native settings mod](https://www.nexusmods.com/cyberpunk2077/mods/3518).
 - [Cyber Engine tweaks (CET)](https://www.nexusmods.com/cyberpunk2077/mods/107).
@@ -14,7 +14,7 @@
 
 ?> **Read their guide to install the requirements** and make sure you have the latest or updated version of these requirements.
 
-## Download
+## 2 - Download
 
 To experience the mod, you have to download it first 🤩. Fortunately downloading CyberScript is common for all operating systems (i.e Windows, Linux, Steam Deck). But since, I have windows in my hand, I will demostrate using windows 🎀
 
@@ -28,7 +28,7 @@ There are two ways to download.
 
 After downloading our **CyberScript Core**, time to experience it 😋. Choose your operating system and follow the guide.
 
-## Installation
+## 3 - Installation
 
 ?> Right now, CyberScript can be installed in three operating systems, **Windows 10 or 11**, **Linux or Steam Deck.** Follow the guides carefully to avoid rewriting some other files. <br><br>**Starting the Installation assuming, you have already downloaded the mod file.**
 
@@ -40,12 +40,12 @@ I'm using  :
 - It contains a folder called `bin`.
 - Copy or Extract the `bin` folder to your Cyberpunk 2077 game installed folder.
 
-# Linux and Steam Deck
+### Linux and Steam Deck
 
 In order to install our mod in Linux or Steam Deck, follow this [guide](installation-linux.md)
 
 
-## Playing with CyberScript
+## 4 - Playing with CyberScript
 You can get any mods that using cyberscript by looking in *requirements* -> *mods requiring this
 file*
 section on the Nexus webpage.
@@ -55,7 +55,7 @@ Mods powered by Cyberscript can only work in cyberscript framework.
 
 When enabling any mods, whether it be in bunches or one at a time, ALWAYS GO TO CyberScript settings to `REFRESH MODS CACHE`.
 
-# Enable a Cyberscript Powered Mod
+# 5 - Enable a Cyberscript Powered Mod
 
 1- Go to Pause Menu <br/>
 2 - Go to "Mods"  <br/>
@@ -72,7 +72,7 @@ Often, mods using cyberscript got interacts, [learn here how to use them](cycle-
 ?> If you have any problem in installation look into [Troubleshooting](troubleshooting.md) or post it on Discord.
 
 
-## Redmod troubleshooting
+## 6 - Redmod troubleshooting
 If you get issue like AV don't show, no sound, no entity spawn or something like this, it's because
 Vortex Redmod don't deploy cyberscript mods yet.
 
