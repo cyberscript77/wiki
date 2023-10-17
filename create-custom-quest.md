@@ -840,7 +840,7 @@ All right ! Now we will go to the last objective !
 
 **3️⃣ Objective 3 : Kill them all !**
 
-Easy but hard. We want that the objective is finished when V have killed all of the bonks ! It will set the end of the mission.
+Easy but hard. We want that the objective is finished when V have killed all of the bonks AFTER we are sure that they spawn ! It will set the end of the mission.
 
 let's fill our JSON :
 
@@ -1050,14 +1050,19 @@ let's fill our JSON :
 			"unlock":[],
             "isoptionnal": false,
             "trigger": {
-                "trigger": {
+                "trigger01": {
                     "name": "killed_group",
                     "tag": "amazingMission_02_npc_group"
-                }
+                },
+				"trigger02": {
+					"name": "group_is_spawn",
+					"tag": "amazingMission_02_npc_group"
+					
+				}
             },
             "requirement": [
                 [
-                    "trigger"
+                    "trigger","trigger02"
                 ]
             ],
             "action": [ ],
@@ -1070,7 +1075,7 @@ let's fill our JSON :
     }
 ```
 
-Very easy objective. it will finish automatically when you have killed all of the entities in the group amazingMission_02_npc_group.
+Very easy objective. it will finish automatically when you have killed all of the entities in the group amazingMission_02_npc_group after they spawned.
 
 No need any action. The end of the mission will be in the "end_action" list of the mission. It's just here for say "Hey I kill them all, it's done !"
 
@@ -1293,14 +1298,19 @@ let's fill our JSON, we are close to the END !!!! I consider that now you know e
             "state": 1,
             "isoptionnal": false,
             "trigger": {
-                "trigger": {
+                "trigger01": {
                     "name": "killed_group",
                     "tag": "amazingMission_02_npc_group"
-                }
+                },
+				"trigger02": {
+					"name": "group_is_spawn",
+					"tag": "amazingMission_02_npc_group"
+					
+				}
             },
             "requirement": [
                 [
-                    "trigger"
+                    "trigger","trigger02"
                 ]
             ],
             "action": [],

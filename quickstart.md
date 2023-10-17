@@ -25,15 +25,25 @@ There are two ways to download.
 
 ?> **Download from any one of the link**<br><br>▶️ Link to download from our Nexus page https://www.nexusmods.com/cyberpunk2077/mods/6475<br>▶️ Link to download from our github repository https://github.com/cyberscript77/release<br>🥺 Don't know how to download from github ? [Follow this guide](download-from-github.md)
 
-# Prior to Cyberscript Core 2.0, please download animation archive as well (available on Nexus too,
-under optional files). Extract it in Cyberpunk game folder(like every Redmod archive mods)
-
 
 After downloading our **CyberScript Core**, time to experience it 😋. Choose your operating system and follow the guide.
 
-I'm using 
-- [Windows 10, 11](installation.md)
-- [Linux Os or Steam Deck](installation-linux.md)
+## Installation
+
+?> Right now, CyberScript can be installed in three operating systems, **Windows 10 or 11**, **Linux or Steam Deck.** Follow the guides carefully to avoid rewriting some other files. <br><br>**Starting the Installation assuming, you have already downloaded the mod file.**
+
+I'm using  : 
+
+> How to install CyberScript on Windows 10, 11. 
+
+- Open the [Downloaded ZIP from here](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=52734&game_id=3333)) using any software you like (ex. [7Zip](https://www.7-zip.org/), [WinRAR](https://www.win-rar.com/))
+- It contains a folder called `bin`.
+- Copy or Extract the `bin` folder to your Cyberpunk 2077 game installed folder.
+
+# Linux and Steam Deck
+
+In order to install our mod in Linux or Steam Deck, follow this [guide](installation-linux.md)
+
 
 ## Playing with CyberScript
 You can get any mods that using cyberscript by looking in *requirements* -> *mods requiring this
@@ -41,6 +51,25 @@ file*
 section on the Nexus webpage.
 CyberScript alone will do nothing since it's a framework !
 
+Mods powered by Cyberscript can only work in cyberscript framework.
+
+When enabling any mods, whether it be in bunches or one at a time, ALWAYS GO TO CyberScript settings to `REFRESH DATAPACK CACHE`.
+
+# Enable a Cyberscript Powered Mod
+
+1- Go to Pause Menu <br/>
+2 - Go to "Mods"  <br/>
+3 - Go to "Cyberscript Mods Manager" Tabs  <br/>
+4 - Enable the mods you need/want  <br/>
+5 - Go to "Cyberscript settings" Tabs and hit "REFRESH DATAPACK CACHE" at the bottom.
+6 - Close Pause Menu
+
+
+Often, mods using cyberscript got interacts, [learn here how to use them](cycle-throught-interact.md)
+
+
+
+?> If you have any problem in installation look into [Troubleshooting](troubleshooting.md) or post it on Discord.
 
 
 ## Redmod troubleshooting
