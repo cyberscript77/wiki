@@ -1,6 +1,6 @@
 # Scripting Basics
 
-> Want to create your own quest, datapacks, entity ? This is the place for you
+> Want to create your own quest, mods, entity ? This is the place for you
 
 # Scripting
 
@@ -99,4 +99,4 @@ summon some enemies and make them hostile (ACTION x2).<br>
 # 🔥Want more ?
 - [Creating Content with CyberScript](creating-content-with-cyberscript.md)
 
-?>😋 **Useful Link**<br>&nbsp;Datapack flag list: [Flag List](datapack-flag.md)
+?>😋 **Useful Link**<br>&nbsp;mod flag list: [Flag List](mod-flag.md)

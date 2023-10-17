@@ -4,12 +4,12 @@
 
 
 # Example
-- [Datapack Examples of the wiki](https://github.com/cyberscript77/wiki/raw/main/resources/myamazingdatapack.zip)
-- [Datapack Animation Workshop](https://github.com/cyberscript77/wiki/raw/main/resources/anim-workshop.zip)
+- [mod Examples of the wiki](https://github.com/cyberscript77/wiki/raw/main/resources/myamazingmod.zip)
+- [mod Animation Workshop](https://github.com/cyberscript77/wiki/raw/main/resources/anim-workshop.zip)
 
 
 # Starting
- - [Create a datapack folder](create-an-datapack-folder.md)
+ - [Create a mod folder](create-an-mod-folder.md)
 
 # Cyberscript Studio
 - [Download Cyberscript Studio](https://www.nexusmods.com/cyberpunk2077/mods/7214)
@@ -37,7 +37,7 @@
 - [[Master] How to make your custom Interface (aka UIWidget)](create-custom-interface.md)
 
 # Community
-- [Share your datapack to our community!](share-your-datapack.md)
+- [Share your mod to our community!](share-your-mod.md)
   
 # Next
 - [[WIP] More to come !](work-in-progress.md)

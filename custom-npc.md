@@ -28,7 +28,7 @@ Ok now I will assume you have it all. let's start !
 
 # 📁 Introduction
 
-We assume here that you already [create an datapack folder](create-an-datapack-folder.md)
+We assume here that you already [create an mod folder](create-an-mod-folder.md)
 
 Now let's go deeper !
 
@@ -43,7 +43,7 @@ Now let's go deeper !
 
 **📂 Setup the folder**
 
-First : in your datapack folder, create a folder named "archive". It will contain every .archive file of your datapack. Logic !
+First : in your mod folder, create a folder named "archive". It will contain every .archive file of your mod. Logic !
 
 **👩Found the NPC you want customize !**
 
@@ -276,15 +276,15 @@ There is a small example that will work :
 }
 ```
 
-# Include your stuff to an datapack( Only for Cyberscript 1.2.92+)
+# Include your stuff to an mod( Only for Cyberscript 1.2.92+)
 
-Copy your whole datapack folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/
+Copy your whole mod folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/
 
-so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/myAmazingDatapack
+so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/myAmazingmod
 
 the structure of the folder should be
 
-📂myAmazingDatapack
+📂myAmazingmod
 
 ```
 ├── 📃 desc.json
@@ -292,7 +292,7 @@ the structure of the folder should be
     └── 📃 myamazingwork.archive
 ```
 
-Then load your game and enable datapack, it will copy the archive. 
+Then load your game and enable mod, it will copy the archive. 
 
 Then reboot your game to apply it 👍
 

@@ -17,14 +17,14 @@
 
 # 📁 Introduction
 
-We assume here that you already [create an datapack folder](create-an-datapack-folder.md)
+We assume here that you already [create an mod folder](create-an-mod-folder.md)
 <br>We will create .... Fixer !
 
 # 👨🏻‍💻 Create a Fixer
 
 **📂 Setup the folder**
 
-First : in your datapack folder, create a folder named "dialog". It will contain every dialog script of your datapack. Logic !
+First : in your mod folder, create a folder named "dialog". It will contain every dialog script of your mod. Logic !
 
 In this folder, create a JSON text file, like for example : amazingFixer.json
 
@@ -267,13 +267,13 @@ we use "subtitle".
 
 # Test your fixer!
 
-Copy your whole datapack folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/
+Copy your whole mod folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/
 
-so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/myAmazingDatapack
+so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/myAmazingmod
 
 the structure of the folder should be
 
-📂myAmazingDatapack
+📂myAmazingmod
 
 ```structure
 ├── 📃 desc.json
@@ -281,7 +281,7 @@ the structure of the folder should be
      └── 📃 amazingFixer.json
 ```
 
-Then load your game. Load an save, go to Pause Menu, go to Mod , Go to Cyberscript Datapack Manager and enable myAmazingDatapack
+Then load your game. Load an save, go to Pause Menu, go to Mod , Go to Cyberscript mod Manager and enable myAmazingmod
 
 Go to location "x": -1530, "y": 986, "z": 23 and in radius of 20 and see it happens !
 

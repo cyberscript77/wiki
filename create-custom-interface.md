@@ -18,14 +18,14 @@
 
 # 📁 Introduction
 
-We assume here that you already [create an datapack folder](create-an-datapack-folder.md)
+We assume here that you already [create an mod folder](create-an-mod-folder.md)
 <br>We will create .... interface !
 
 # 📱 Create a Interface
 
 **📂 Setup the folder**
 
-First : in your datapack folder, create a folder named "interfaces". It will contain every interfaces script of your datapack. Logic !
+First : in your mod folder, create a folder named "interfaces". It will contain every interfaces script of your mod. Logic !
 
 In this folder, create a JSON text file, like for example : myUI.json
 
@@ -1194,14 +1194,14 @@ For hide it , you can make another interact :
 
 # Test your interact and your dialog !
 
-Copy your whole datapack folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/
+Copy your whole mod folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/
 
-so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/myAmazingDatapack
+so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/myAmazingmod
 
 the structure of the folder should be
 
 ```structure
-📂myAmazingDatapack
+📂myAmazingmod
 ├── 📃 desc.json
 ├── 📁 interface
 |    └── 📃 myUI.json
@@ -1210,7 +1210,7 @@ the structure of the folder should be
     └── 📃 myamazinguihide.json
 ```
 
-Select the datapack "myAmazingDatapack" in cycle interact ([What are you talking about ?](cet-key-binding.md))
+Select the mod "myAmazingmod" in cycle interact ([What are you talking about ?](cycle-throught-interact.md))
 
 then hit the key for use your interact. Dialog should show !
 

@@ -17,7 +17,7 @@
 
 # 📁 Introduction
 
-We assume here that you already [create an datapack folder](create-an-datapack-folder.md)
+We assume here that you already [create an mod folder](create-an-mod-folder.md)
 <br>We will create .... Function !
 
 # ⚙ Create a Function
@@ -28,7 +28,7 @@ Using function will save you time. You want repeat an script part ? Call functio
 
 **📂 Setup the folder**
 
-First : in your datapack folder, create a folder named "function". It will contain every function script of your datapack. Logic !
+First : in your mod folder, create a folder named "function". It will contain every function script of your mod. Logic !
 
 In this folder, create a JSON text file, like for example : amazingFunction.json
 
@@ -116,13 +116,13 @@ There is a small example that will work :
 
 # Test your faction!
 
-Copy your whole datapack folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/
+Copy your whole mod folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/
 
-so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/myAmazingDatapack
+so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/myAmazingmod
 
 the structure of the folder should be
 
-📂myAmazingDatapack
+📂myAmazingmod
 
 ```structure
 ├── 📃 desc.json
@@ -132,9 +132,9 @@ the structure of the folder should be
      └── 📃 myamazinginteractfunction.json
 ```
 
-Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript Datapack Manager and enable myAmazingDatapack
+Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript mod Manager and enable myAmazingmod
 
-Select the datapack "myAmazingDatapack " in cycle interact ([What are you talking about ?](cet-key-binding.md))!
+Select the mod "myAmazingmod " in cycle interact ([What are you talking about ?](cycle-throught-interact.md))!
 
 then hit the key for use your interact. Function should execute !
 

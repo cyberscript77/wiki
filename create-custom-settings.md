@@ -17,18 +17,18 @@
 
 # 📁 Introduction
 
-We assume here that you already [create an datapack folder](create-an-datapack-folder.md)
+We assume here that you already [create an mod folder](create-an-mod-folder.md)
 <br>We will create .... Custom Settings!
 
 # ⚙ Create a Setting
 
 **❓ Why using Setting ?**
 
-Custom Settings  are here if you want let your users customize their experience with your datapack.
+Custom Settings  are here if you want let your users customize their experience with your mod.
 
 **📂 Setup the folder**
 
-First : in your datapack folder, create a folder named "setting". It will contain every function script of your datapack. Logic !
+First : in your mod folder, create a folder named "setting". It will contain every function script of your mod. Logic !
 
 In this folder, create a JSON text file, like for example : amazingSetting.json
 
@@ -246,13 +246,13 @@ Take a look :
 
 # Test your setting!
 
-Copy your whole datapack folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/
+Copy your whole mod folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/
 
-so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/myAmazingDatapack
+so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/myAmazingmod
 
 the structure of the folder should be
 
-📂myAmazingDatapack
+📂myAmazingmod
 
 ```structure
 ├── 📃 desc.json
@@ -260,7 +260,7 @@ the structure of the folder should be
      └── 📃 amazingSetting.json
 ```
 
-Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript Datapack Manager and enable myAmazingDatapack. Go back to  Mods , Cyberscript Custom Settings,  Refresh Cache, and enjoy !
+Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript mod Manager and enable myAmazingmod. Go back to  Mods , Cyberscript Custom Settings,  Refresh Cache, and enjoy !
 
 <h2>Enjoy ! 🤠</h2><hr>
 

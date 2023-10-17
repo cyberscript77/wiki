@@ -17,14 +17,14 @@
 
 # 📁 Introduction
 
-We assume here that you already [create an datapack folder](create-an-datapack-folder.md)
+We assume here that you already [create an mod folder](create-an-mod-folder.md)
 <br>Now let's go deeper! We will create .... Interact !
 
 # ⏏ Create an Interact
 
 **📂 Setup the folder**
 
-First : in your datapack folder, create an folder named "interact". It will contain every interact script of your datapack. Logic !<br>
+First : in your mod folder, create an folder named "interact". It will contain every interact script of your mod. Logic !<br>
 In this folder, create a JSON text file, like for example : amazingInteract.json
 
 Open it with your text editor of choice. <br>
@@ -232,14 +232,14 @@ You can add style to your interact.
 
 # Test your interact !
 
-Copy your whole datapack folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/
+Copy your whole mod folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/
 
 
-so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/quest_mod/json/datapack/myAmazingDatapack
+so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/datapack/myAmazingmod
 
 the structure of the folder should be
 
-📂myAmazingDatapack
+📂myAmazingmod
 
 ```structure
 ├── 📃 desc.json
@@ -247,7 +247,7 @@ the structure of the folder should be
     └── 📃 amazingInteract.json
 ```
 
-Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript Datapack Manager and enable myAmazingDatapack. MAKE SURE to have Auto refresh on!
+Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript mod Manager and enable myAmazingmod. MAKE SURE to have Auto refresh on!
 
 Then go to see Rogue, open your journal and look under the "Available " section. You will see your interact !
 

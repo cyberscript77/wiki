@@ -13,7 +13,7 @@ See the [Quick start](quickstart.md) guide for more details.
 - In-game editor.
 - Custom Quest, Dialog, Subtitle and Shards.
 - Support for Phone Conversation, Circuit with Path, Faction, Event, Fixer, Housing, Place, NPC, Sounds, Texture and Radio.
-- Organized collection of scripts called **Datapacks**.
+- Organized collection of scripts called **mods**.
 - No **hard-coded** quests.
 
 

@@ -7,7 +7,7 @@
 - ⚙️ Scripting
   - [Scripting Basics](scripting-basics.md)
   - [Creating content with CyberScript](creating-content-with-cyberscript.md)
-  - [Create a datapack folder](create-an-datapack-folder.md)
+  - [Create a mod folder](create-an-mod-folder.md)
   
  - 🪄 Cyberscript Studio Scripting
  - [Download Cyberscript Studio](https://www.nexusmods.com/cyberpunk2077/mods/7214)
@@ -27,7 +27,7 @@
   - [Create custom tutorial](create-custom-tutorial.md)
   - [Create custom codex entry](create-custom-codex.md)
   - [Create custom Garage entry](create-custom-garage-entry.md)
-  - [Share your datapack](share-your-datapack.md)
+  - [Share your mod](share-your-mod.md)
 
 - 😎 Advanced
 
@@ -42,7 +42,7 @@
 
 - 📖 Glossary
   
-  - [Datapack Flags](datapack-flag.md)
+  - [mod Flags](mod-flag.md)
   - [Available Actions](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/actiontemplate.json)
   - [Available Triggers](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/triggertemplate.json)
   - [Characters List](https://github.com/cyberscript77/release/blob/main/bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/mod/data/CharacterTable.xlsx?raw=true)
