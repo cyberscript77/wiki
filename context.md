@@ -195,6 +195,16 @@ value : "Body"
 "tag":"mylangressource"
 ```
 
+# "group"
+
+- tag
+
+```json
+"type": "group",
+"tag":"mygroup"
+```
+will return the group's entites amount
+
 # "random_lang"
 
 ```json
