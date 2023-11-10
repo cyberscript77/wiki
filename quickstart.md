@@ -114,3 +114,15 @@ Then
 - save the file and run it
 
 ⚠️ You may have to enable mods from *mods.json* and run *start.bat* everytime that you add a new redmod mod from vortex ⚠️
+
+## 7 - Redscript fail at launch
+This issue is independant of cyberscript, usually, it's vortex deployment issue, but here you can get a guide to resolve it :
+
+Try to remove
+(game root folder)/r6/cache/modded folder
+
+Then
+
+Relaunch game through redlauncher with mod enabled 
+
+
