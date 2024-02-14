@@ -99,30 +99,16 @@ then use Cycle Custom Interact key to choose the interact you want to use.
 If you get issue like AV don't show, no sound, no entity spawn or something like this, it's because
 Vortex Redmod don't deploy cyberscript mods yet.
 
-Go to (game root folder)/r6/cache/modded/mods.json and put all cyberscript based mod to
-**"enabled":true**
 
-Then
 
-- go to your game root folder
-- go to tools - > redmod -> bin 
-- create a txt file named *start.bat*
-- edit it with notepad
-- copy this 
-> redMod.exe deploy<br/> pause
+This issue is independant of cyberscript, usually, it's vortex deployment issue, for summarize it try to convert mods and filter the deployement , but here you can get a guide to resolve it :
 
-- save the file and run it
+### - Go to Vortex > Settings > V2077 Settings > Uncheck "Automatically convert old-style 'archive' mods to Redmods on install"
 
-⚠️ You may have to enable mods from *mods.json* and run *start.bat* everytime that you add a new redmod mod from vortex ⚠️
-
-## 7 - Redscript fail at launch
-This issue is independant of cyberscript, usually, it's vortex deployment issue, but here you can get a guide to resolve it :
-
-Try to remove
+- Try to remove
 (game root folder)/r6/cache/modded folder
 
-Then
 
-Relaunch game through redlauncher with mod enabled 
+- Relaunch game through RedLauncher with mod enabled (small gear near Play button)
 
 
