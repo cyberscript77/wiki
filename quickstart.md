@@ -103,7 +103,7 @@ Vortex Redmod don't deploy cyberscript mods yet.
 
 This issue is independant of cyberscript, usually, it's vortex deployment issue, for summarize it try to convert mods and filter the deployement , but here you can get a guide to resolve it :
 
-### - Go to Vortex > Settings > V2077 Settings > Uncheck "Automatically convert old-style 'archive' mods to Redmods on install"
+### - Go to Vortex > Settings > V2077 Settings > Uncheck "Automatically convert old-style 'archive' mods to Redmods on install" and re-install your mods
 
 - Try to remove
 (game root folder)/r6/cache/modded folder
