@@ -28,8 +28,8 @@ View the [Change log](changelog.md) to know the details of each versions.
 # Support
 
 - Join our [Discord server](https://discord.gg/4qQa3v7gGs) for bug reports, feature requests, or questions
-- Visit our [Github](https://github.com/donk7413/cybermod_release_repository) for open source code.
-- Add a ⭐️ [star on GitHub](https://github.com/donk7413/cybermod_release_repository) to support the plugin!
+- Visit our [Github](https://github.com/cyberscript77/release) for open source code.
+- Add a ⭐️ [star on GitHub](https://github.com/cyberscript77/release) to support the plugin!
 
 # License
 
