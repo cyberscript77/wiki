@@ -157,10 +157,13 @@ the structure of the folder should be
 ```structure
 📂myAmazingmod
 ├── 📃 desc.json
-├── 📁 shard
-|    └── 📃 myAmazingShard.json
-└── 📁 interact
-     └── 📃 myamazinginteractshard.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+	├── 📁 shard
+	|    └── 📃 myAmazingShard.json
+	└── 📁 interact
+	     └── 📃 myamazinginteractshard.json
 ```
 
 Select the mod "myAmazingmod" in cycle interact ([What are you talking about ?](cycle-throught-interact.md))
