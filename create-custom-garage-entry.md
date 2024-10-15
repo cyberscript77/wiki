@@ -134,8 +134,11 @@ the structure of the folder should be
 ```structure
 📂myAmazingmod
 ├── 📃 desc.json
-├── 📁 garage
-|    └── 📃 amazingCar.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+	├── 📁 garage
+|    		└── 📃 amazingCar.json
 ```
 
 Select the mod "myAmazingmod" in cycle interact ([What are you talking about ?](cycle-throught-interact.md))
