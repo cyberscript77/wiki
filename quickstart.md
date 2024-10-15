@@ -85,13 +85,18 @@ You can find settings for each mods by doing :  <br/>
 2 - Go to "Mods"  <br/>
 
 
-## 5 -Cycle throught Interact
+## 5 - Open Interact Menu
 
 Since we can't display so much interact in same time, you need to select which one you want use from the mod that contains it.
 
 Depending on if you play with a controller or keyboard, you need to keybind some key in order to switch between using keyboard or controller.
 
-First one, Cycle Custom Intereact is very important, to bind it, open Mods setting and go to Cyberscript binding:
+First one,  you need to bind it.
+How to do : 
+1-  Pause Menu <br/>
+2 - Go to "Mods"  <br/>
+3 - Go to "Cyberscript Keybinding"  <br/>
+4 - Define the Keys in **Open Interact Menu** section 
 ![alt menu](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/keybind.png)
 This key will allow you to go through current selected Mods's interacts if the Mods has any within it's folder.
 
