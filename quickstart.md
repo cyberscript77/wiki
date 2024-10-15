@@ -114,5 +114,5 @@ Use the interact "Switch to another mod" to change the currently active mod inte
 ?> Some mods doesn't have any interactions here, it's all depends of the author of the mod.
 
 ## 6 - Trouble
-?> If you have any problem in installation, post it on [Discord](https://discord.gg/4qQa3v7gGs).
+?> If you have any problem in installation, post it on [Discord](https://discord.gg/4qQa3v7gGs) or on [Github](https://github.com/cyberscript77/release/issues).
 
