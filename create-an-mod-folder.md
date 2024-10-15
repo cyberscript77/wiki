@@ -36,6 +36,9 @@ the structure of the folder should be :
               ├── 📁 mods
                    ├── 📁 myAmazingmod  
                        └── 📃 desc.json
+                       └── 📃 init.lua
+                       └── 📁 scripts
+                       └── 📁 libs (contains cyberlibs libraries)
 ```
 
 
