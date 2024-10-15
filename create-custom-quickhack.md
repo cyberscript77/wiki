@@ -101,8 +101,11 @@ the structure of the folder should be
 
 ```structure
 ├── 📃 desc.json
-└── 📁 quickhack
-    └── 📃 myquickhack.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+	└── 📁 quickhack
+	    └── 📃 myquickhack.json
 ```
 
 Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript mod Manager and enable myAmazingmod. MAKE SURE to have Auto refresh on!
