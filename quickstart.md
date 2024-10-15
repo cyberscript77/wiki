@@ -92,17 +92,7 @@ Since we can't display so much interact in same time, you need to select which o
 Depending on if you play with a controller or keyboard, you need to keybind some key in order to switch between using keyboard or controller.
 
 First one, Cycle Custom Intereact is very important, to bind it, open Mods setting and go to Cyberscript binding:
-
-![alt 1](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/pause.png)
-
-![alt 1](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/keybindtab.png)
-
-![alt 1](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/keybind.png)
-
-Hotkeys Amount means how many hotkeys you need to hit for trigger the menu (aka combo)
-
-Hold the key means that the key need to be holded
-
+![alt menu](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/keybind.png)
 This key will allow you to go through current selected Mods's interacts if the Mods has any within it's folder.
 
 ![alt 2](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/2.jpg)
