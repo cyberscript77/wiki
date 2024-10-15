@@ -474,10 +474,13 @@ the structure of the folder should be
 ```structure
 📂myAmazingmod
 ├── 📃 desc.json
-├── 📁 phone_dialog
-|    └── 📃 amazingPhoneDialog.json
-└── 📁 interact
-     └── 📃 myamazinginteractphonedialog.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+	├── 📁 phone_dialog
+	|    └── 📃 amazingPhoneDialog.json
+	└── 📁 interact
+	     └── 📃 myamazinginteractphonedialog.json
 ```
 
 Select the mod "myAmazingmod" in cycle interact ([What are you talking about ?](cycle-throught-interact.md))
