@@ -42,6 +42,7 @@ the structure of the folder should be :
 ```
 
 
+Or follow this [template](https://github.com/cyberscript77/cyberscript-mod-template/raw/refs/heads/main/cyberscript-mod-template.7z) and rename the folders in it by your mod name 
 
   
 Now we will fill this `desc.json`
@@ -66,7 +67,7 @@ You can see many fields in it, let's describe it :
 - desc : description of your mod
 - author : author of the mod
 - file : name of the archive when it will be zipped, it should use the tag + ".zip"
-- tag : the word identifier of the mod, the mod will recognize it by this field
+- tag : the word identifier of the mod, the mod will recognize it by this field. IT SHOULD BE EXACTLY THE SAME THAN THE FOLDER NAME !
 - version : the version of the mod, should be formated X.X.X (Major.Medium.Minor)
 - flags : the "requirements" and extra information about the mod. For this case, "cm_verson" means it should require at least cyberscript 1.2.8. List of possible flag [here](mod-flag.md)
 - Compile is a flag that works with auto refresh. The way it works is if you were to change 1 thing in your mod while the game is open, Just simply pause and unpause for the change to be made.
