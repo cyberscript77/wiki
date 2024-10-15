@@ -276,25 +276,6 @@ There is a small example that will work :
 }
 ```
 
-# Include your stuff to an mod( Only for Cyberscript 1.2.92+)
-
-Copy your whole mod folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/
-
-so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/myAmazingmod
-
-the structure of the folder should be
-
-📂myAmazingmod
-
-```
-├── 📃 desc.json
-└── 📁 archive
-    └── 📃 myamazingwork.archive
-```
-
-Then load your game and enable mod, it will copy the archive. 
-
-Then reboot your game to apply it 👍
 
 <h2>Enjoy ! 🤠</h2><hr>
 
