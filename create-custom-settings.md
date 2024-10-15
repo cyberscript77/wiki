@@ -256,8 +256,11 @@ the structure of the folder should be
 
 ```structure
 ├── 📃 desc.json
-└── 📁 setting
-     └── 📃 amazingSetting.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+          └── 📁 setting
+               └── 📃 amazingSetting.json
 ```
 
 Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript mod Manager and enable myAmazingmod. Go back to  Mods , Cyberscript Custom Settings,  Refresh Cache, and enjoy !
