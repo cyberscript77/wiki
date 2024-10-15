@@ -54,5 +54,4 @@
   - [Vehicle List](vehicle-list.md)
 
 - 🤖 Misc
-  - [Troubleshooting](troubleshooting.md)
   - [Work In Progress](work-in-progress.md)

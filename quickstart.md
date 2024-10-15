@@ -10,7 +10,7 @@
 - [Cyber Engine tweaks (CET)](https://www.nexusmods.com/cyberpunk2077/mods/107).
 - [Codeware](https://www.nexusmods.com/cyberpunk2077/mods/7780).
 - [CyberScript Core Animation Archive](https://www.nexusmods.com/cyberpunk2077/mods/7691).
-- [Redmod](https://www.youtube.com/watch?v=NVKVuzIW5WY&t=190s).
+- [Audioware](https://www.nexusmods.com/cyberpunk2077/mods/12001).
 
 ?> **Read their guide to install the requirements** and make sure you have the latest or updated version of these requirements.
 
@@ -53,13 +53,17 @@ CyberScript alone will do nothing since it's a framework !
 
 Mods powered by Cyberscript can only work in cyberscript framework.
 
-## 4 - Enable a Cyberscript Powered Mod
+## 4 - Enable a Mod that require Cyberscript
 
-1- Go to Pause Menu <br/>
+?> This method is for Cyberscript Core 4.0 and more
+
+Install them throught Vortex or manually, like any other mods.
+
+?> Sometimes Vortex will display this : ![alt 5](./assets/images/cet-key-binding/../gettings-started/vortex.png) <br/> It's because audioware mods are not recognized by the CP2077 Vortex extension yet. <br/> In this case, click on Yes, Intall to Staging Anyway
+
+You can find settings for each mods by doing : 
+1-  Pause Menu <br/>
 2 - Go to "Mods"  <br/>
-3 - Go to "Cyberscript Mods Manager" Tabs  <br/>
-4 - Enable the mods you need/want  <br/>
-6 - Close Pause Menu
 
 
 ## 5 -Cycle throught Interact
@@ -92,23 +96,5 @@ then use Cycle Custom Interact key to choose the interact you want to use.
 
 ![alt 4](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/4.jpg)
 
-?> If you have any problem in installation look into [Troubleshooting](troubleshooting.md) or post it on Discord.
-
-
-## 6 - Redmod troubleshooting
-If you get issue like AV don't show, no sound, no entity spawn or something like this, it's because
-Vortex Redmod don't deploy cyberscript mods yet.
-
-
-
-This issue is independant of cyberscript, usually, it's vortex deployment issue, for summarize it try to convert mods and filter the deployement , but here you can get a guide to resolve it :
-
-### - Go to Vortex > Settings > V2077 Settings > Uncheck "Automatically convert old-style 'archive' mods to Redmods on install" and re-install your mods
-
-- Try to remove
-(game root folder)/r6/cache/modded folder
-
-
-- Relaunch game through RedLauncher with mod enabled (small gear near Play button)
-
+?> If you have any problem in installation, post it on Discord.
 

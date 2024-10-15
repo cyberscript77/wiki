@@ -22,7 +22,7 @@ It can be missions, dialogs, places and events...
 It have also an file named desc.json (that the case for every mod) it contains the information for the mod about the mod.
 
 So now :
-- create an folder "bin". Inside this folder, reate this path : "bin\x64\plugins\cyber_engine_tweaks\mods\cyberscript\datapack\"
+- create an folder "bin". Inside this folder, create this path : "bin\x64\plugins\cyber_engine_tweaks\mods\"
 - Create a folder named for example "myAmazingmod"
 - In this folder at the root, create a file text named desc.json. OR just copy n' paste an existing one and change out it's values, as a starter.
 the structure of the folder should be :
@@ -34,10 +34,8 @@ the structure of the folder should be :
      ├── 📁 plugins
           ├── 📁 cyber_engine_tweaks
               ├── 📁 mods
-                   ├── 📁 cyberscript  
-                        ├── 📁 datapack  
-                              ├── 📁 myAmazingmod  
-                                    └── 📃 desc.json
+                   ├── 📁 myAmazingmod  
+                       └── 📃 desc.json
 ```
 
 
