@@ -100,13 +100,19 @@ How to do :
 ![alt menu](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/keybind.png)
 This key will allow you to go through current selected Mods's interacts if the Mods has any within it's folder.
 
-Use the interact "Switch to another mod" to change the the currently active mod interactions group.
+Now, in game, trigger the menu by pressing the key(s) you define just before.
 
-![alt 3](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/3.jpg)
+It opens the current the currently active mod interactions group.
 
-then use choose the mod you want to use. 
+![alt 3](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/4.jpg)
 
-![alt 4](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/4.jpg)
+Use the interact "Switch to another mod" to change the currently active mod interactions group.
 
-?> If you have any problem in installation, post it on Discord.
+![alt 4](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/3.jpg)
+
+
+?> Some mods doesn't have any interactions here, it's all depends of the author of the mod.
+
+## 6 - Trouble
+?> If you have any problem in installation, post it on [Discord](https://discord.gg/4qQa3v7gGs) or on [Github](https://github.com/cyberscript77/release/issues).
 
