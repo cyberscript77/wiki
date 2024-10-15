@@ -126,10 +126,13 @@ the structure of the folder should be
 
 ```structure
 ├── 📃 desc.json
-├── 📁 function
-|    └── 📃 amazingFunction.json
-├── 📁 interact
-     └── 📃 myamazinginteractfunction.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+	├── 📁 function
+	|    └── 📃 amazingFunction.json
+	├── 📁 interact
+	     └── 📃 myamazinginteractfunction.json
 ```
 
 Then load your game. Load a save, go to Pause Menu, go to Mod , Go to Cyberscript mod Manager and enable myAmazingmod
