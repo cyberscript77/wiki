@@ -277,8 +277,11 @@ the structure of the folder should be
 
 ```structure
 ├── 📃 desc.json
-├── 📁 fixer
-     └── 📃 amazingFixer.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+	├── 📁 fixer
+		└── 📃 amazingFixer.json
 ```
 
 Then load your game. Load an save, go to Pause Menu, go to Mod , Go to Cyberscript mod Manager and enable myAmazingmod
