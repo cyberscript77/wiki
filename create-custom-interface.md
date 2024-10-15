@@ -1199,15 +1199,17 @@ Copy your whole mod folder in (GOG or steam game folder)/Cyberpunk 2077/bin/x64/
 so it should be in our case (GOG or steam game folder)/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods/myAmazingmod
 
 the structure of the folder should be
-
-```structure
 📂myAmazingmod
+```structure
 ├── 📃 desc.json
-├── 📁 interface
-|    └── 📃 myUI.json
-└── 📁 interact
-    └── 📃 myamazinguitest.json
-    └── 📃 myamazinguihide.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+	├── 📁 interface
+	|    └── 📃 myUI.json
+	└── 📁 interact
+	    └── 📃 myamazinguitest.json
+	    └── 📃 myamazinguihide.json
 ```
 
 Select the mod "myAmazingmod" in cycle interact ([What are you talking about ?](cycle-throught-interact.md))
