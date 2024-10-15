@@ -66,7 +66,7 @@ Mods powered by Cyberscript can only work in cyberscript framework.
 You can check which configuration is loaded in each Cyberscript based mods settings : 
 ![alt controller-config](./assets/images/gettings-started/playing-with-cyberscript/controller-config.jpg)
 
-#n# 4 - Enable a Mod that require Cyberscript
+## 4 - Enable a Mod that require Cyberscript
 
 ?> This method is for Cyberscript Core 4.0 and more
 
