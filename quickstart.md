@@ -53,6 +53,14 @@ CyberScript alone will do nothing since it's a framework !
 
 Mods powered by Cyberscript can only work in cyberscript framework.
 
+### First use : 
+#### Define a type of controller (keyboard or gamepad)
+  1-  Pause Menu <br/>
+  2 - Go to "Mods"  <br/>
+  3 - Go to "Cyberscript Setting"  <br/>
+  4 - Check or not the toggle about controller : 
+![alt controller](./assets/images/gettings-started/playing-with-cyberscript/controller.jpg)
+
 ## 4 - Enable a Mod that require Cyberscript
 
 ?> This method is for Cyberscript Core 4.0 and more
