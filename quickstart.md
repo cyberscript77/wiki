@@ -100,13 +100,11 @@ How to do :
 ![alt menu](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/keybind.png)
 This key will allow you to go through current selected Mods's interacts if the Mods has any within it's folder.
 
-![alt 2](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/2.jpg)
-
-Use the interact "Select active Interactions Group" to open the menu and select the current active Mods
+Use the interact "Switch the currently active mod interactions" to change the the currently active mod interactions group.
 
 ![alt 3](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/3.jpg)
 
-then use Cycle Custom Interact key to choose the interact you want to use. 
+then use choose the mod you want to use. 
 
 ![alt 4](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/4.jpg)
 
