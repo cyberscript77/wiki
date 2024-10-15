@@ -4,9 +4,7 @@
 
 
 # Example
-- [mod Examples of the wiki](https://github.com/cyberscript77/wiki/raw/main/resources/myamazingmod.zip)
-- [mod Animation Workshop](https://github.com/cyberscript77/wiki/raw/main/resources/anim-workshop.zip)
-
+- [Mod Template](https://github.com/cyberscript77/cyberscript-mod-template/raw/refs/heads/main/cyberscript-mod-template.7z)
 
 # Starting
  - [Create a mod folder](create-an-mod-folder.md)

@@ -59,7 +59,7 @@ Mods powered by Cyberscript can only work in cyberscript framework.
 
 Install them throught Vortex or manually, like any other mods.
 
-?> Sometimes Vortex will display this : ![alt 5](./assets/images/cet-key-binding/../gettings-started/vortex.png) <br/> It's because audioware mods are not recognized by the CP2077 Vortex extension yet. <br/> In this case, click on Yes, Intall to Staging Anyway
+?> Sometimes Vortex will display this : ![alt 5](./assets/images/vortex.png) <br/> It's because audioware mods are not recognized by the CP2077 Vortex extension yet. <br/> In this case, click on Yes, Intall to Staging Anyway
 
 You can find settings for each mods by doing : 
 1-  Pause Menu <br/>
