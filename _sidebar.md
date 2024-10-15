@@ -1,7 +1,6 @@
 - 📕 Getting started
 
   - [Quick start](quickstart.md)
-  - [Cycle throught Interact](cycle-throught-interact.md)
 
 
 - ⚙️ Scripting
