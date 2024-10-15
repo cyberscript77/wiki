@@ -67,7 +67,7 @@ Cyberscript has two types of keybinding configurations: one for the keyboard and
 This means that for each keybind, you can have two different configurations. The toggle allows you to switch between these configurations. For each configuration, you need to define the keybindings.<br/>
 
 Example:<br/>
-You define key "A" for the keyboard configuration. If you want to switch to a gamepad, toggle the setting, reload the save, and then assign "DPAD UP" for the controller configuration.<br/>
+You define key "A" for the keyboard configuration. If you want to switch to a gamepad, toggle the setting, reload the save, and then assign "DPAD UP" for the controller configuration. (if you didn't do it already)<br/>
 
 You can check which configuration is loaded in each Cyberscript based mods settings : 
 ![alt controller-config](./assets/images/gettings-started/playing-with-cyberscript/controller-config.jpg)
