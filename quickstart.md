@@ -57,7 +57,7 @@ Mods powered by Cyberscript can only work in cyberscript framework.
 #### Define a type of controller (keyboard or gamepad)
   1-  Pause Menu <br/>
   2 - Go to "Mods"  <br/>
-  3 - Go to "Cyberscript Setting"  <br/>
+  3 - Go to "Cyberscript Keybinding"  <br/>
   4 - Check or not the toggle about controller : 
 ![alt controller](./assets/images/gettings-started/playing-with-cyberscript/controller.jpg)
 
