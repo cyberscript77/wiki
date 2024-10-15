@@ -73,10 +73,12 @@ the structure of the folder should be
 
 
 ```structure
-📂myAmazingmod
 ├── 📃 desc.json
-├── 📁 codex
-|    └── 📃 amazingcodex.json
+├── 📃 init.lua
+├── 📁 libs
+├── 📁 scripts
+	├── 📁 codex
+    	└── 📃 amazingcodex.json
 ```
 
 Select the mod "myAmazingmod" in cycle interact ([What are you talking about ?](cycle-throught-interact.md))
