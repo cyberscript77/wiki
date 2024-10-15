@@ -61,12 +61,18 @@ Mods powered by Cyberscript can only work in cyberscript framework.
   4 - Check or not the toggle about controller : 
 ![alt controller](./assets/images/gettings-started/playing-with-cyberscript/controller.jpg)
 
-?> For let you understand how it's work : <br/> Cyberscript got 2 kind of keybinding configuration : Keyboard or Controller. <br/> That's means for one keybind, you can have 2 kind of configuration. This toggle load one or the other one configuration.
+?> To help you understand how it works:<br/>
+Cyberscript has two types of keybinding configurations: one for the keyboard and one for the controller.<br/>
+
+This means that for each keybind, you can have two different configurations. The toggle allows you to switch between these configurations. For each configuration, you need to define the keybindings.<br/>
+
+Example:<br/>
+You define key "A" for the keyboard configuration. If you want to switch to a gamepad, toggle the setting, reload the save, and then assign "DPAD UP" for the controller configuration. (if you didn't do it already)<br/>
 
 You can check which configuration is loaded in each Cyberscript based mods settings : 
 ![alt controller-config](./assets/images/gettings-started/playing-with-cyberscript/controller-config.jpg)
 
-#n# 4 - Enable a Mod that require Cyberscript
+## 4 - Enable a Mod that require Cyberscript
 
 ?> This method is for Cyberscript Core 4.0 and more
 
