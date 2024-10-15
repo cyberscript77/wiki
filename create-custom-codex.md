@@ -78,7 +78,7 @@ the structure of the folder should be
 ├── 📁 libs
 ├── 📁 scripts
 	├── 📁 codex
-    	└── 📃 amazingcodex.json
+    		└── 📃 amazingcodex.json
 ```
 
 Select the mod "myAmazingmod" in cycle interact ([What are you talking about ?](cycle-throught-interact.md))
