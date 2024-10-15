@@ -61,6 +61,8 @@ Mods powered by Cyberscript can only work in cyberscript framework.
   4 - Check or not the toggle about controller : 
 ![alt controller](./assets/images/gettings-started/playing-with-cyberscript/controller.jpg)
 
+?> For let you understand how it's work : <br/> Cyberscript got 2 kind of keybinding configuration : keyboard or controller. <br/> that's means for one keybind, you can have 2 kind of configuration. This toggle load one or the other one configuration.
+
 ## 4 - Enable a Mod that require Cyberscript
 
 ?> This method is for Cyberscript Core 4.0 and more
