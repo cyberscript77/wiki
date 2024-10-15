@@ -110,5 +110,9 @@ Use the interact "Switch to another mod" to change the currently active mod inte
 
 ![alt 4](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/3.jpg)
 
-?> If you have any problem in installation, post it on Discord.
+
+?> Some mods doesn't have any interactions here, it's all depends of the author of the mod.
+
+## 6 - Trouble
+?> If you have any problem in installation, post it on [Discord](https://discord.gg/4qQa3v7gGs).
 
