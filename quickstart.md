@@ -102,11 +102,11 @@ This key will allow you to go through current selected Mods's interacts if the M
 
 Use the interact "Switch to another mod" to change the the currently active mod interactions group.
 
-![alt 3](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/3.jpg)
+![alt 3](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/4.jpg)
 
 then use choose the mod you want to use. 
 
-![alt 4](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/4.jpg)
+![alt 4](./assets/images/cet-key-binding/../gettings-started/cet-key-binding/3.jpg)
 
 ?> If you have any problem in installation, post it on Discord.
 
