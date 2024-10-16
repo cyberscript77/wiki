@@ -72,6 +72,8 @@ You define key "A" for the keyboard configuration. If you want to switch to a ga
 You can check which configuration is loaded in each Cyberscript based mods settings : 
 ![alt controller-config](./assets/images/gettings-started/playing-with-cyberscript/controller-config.jpg)
 
+?>Keybinding configuration file is here : (Cyberpunk 2077 folder)\bin\x64\plugins\cyber_engine_tweaks\mods\cyberscript\user\settings\userinput.json <br/> You should delete this one if you migrate from an version lower to 5.0.0 to the 5.0.0, since there is major rework about it.
+
 ## 4 - Enable a Mod that require Cyberscript
 
 ?> This method is for Cyberscript Core 4.0 and more
